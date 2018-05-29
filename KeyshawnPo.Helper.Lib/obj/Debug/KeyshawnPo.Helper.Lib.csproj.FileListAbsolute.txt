@@ -3,3 +3,10 @@ D:\OwnerTemp\WorkInfo\KeyshawnPo.CodeLib\KeyshawnPo.Helper\KeyshawnPo.Helper.Lib
 D:\OwnerTemp\WorkInfo\KeyshawnPo.CodeLib\KeyshawnPo.Helper\KeyshawnPo.Helper.Lib\obj\Debug\KeyshawnPo.Helper.Lib.dll
 D:\OwnerTemp\WorkInfo\KeyshawnPo.CodeLib\KeyshawnPo.Helper\KeyshawnPo.Helper.Lib\obj\Debug\KeyshawnPo.Helper.Lib.pdb
 D:\OwnerTemp\WorkInfo\KeyshawnPo.CodeLib\KeyshawnPo.Helper\KeyshawnPo.Helper.Lib\bin\Debug\Newtonsoft.Json.dll
+D:\OwnerTemp\WorkInfo\KeyshawnPo.CodeLib\KeyshawnPo.Helper\KeyshawnPo.Helper.Lib\bin\Debug\ChnCharInfo.dll
+D:\OwnerTemp\WorkInfo\KeyshawnPo.CodeLib\KeyshawnPo.Helper\KeyshawnPo.Helper.Lib\bin\Debug\ICSharpCode.SharpZipLib.dll
+D:\OwnerTemp\WorkInfo\KeyshawnPo.CodeLib\KeyshawnPo.Helper\KeyshawnPo.Helper.Lib\bin\Debug\NPOI.dll
+D:\OwnerTemp\WorkInfo\KeyshawnPo.CodeLib\KeyshawnPo.Helper\KeyshawnPo.Helper.Lib\bin\Debug\NPOI.OOXML.dll
+D:\OwnerTemp\WorkInfo\KeyshawnPo.CodeLib\KeyshawnPo.Helper\KeyshawnPo.Helper.Lib\bin\Debug\NPOI.OpenXml4Net.dll
+D:\OwnerTemp\WorkInfo\KeyshawnPo.CodeLib\KeyshawnPo.Helper\KeyshawnPo.Helper.Lib\bin\Debug\NPOI.OpenXmlFormats.dll
+D:\OwnerTemp\WorkInfo\KeyshawnPo.CodeLib\KeyshawnPo.Helper\KeyshawnPo.Helper.Lib\bin\Debug\NPOI.xml

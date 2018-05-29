@@ -30,16 +30,43 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="ChnCharInfo, Version=1.0.0.0, Culture=neutral, PublicKeyToken=18f031bd02e5e291, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>DLL\ChnCharInfo.dll</HintPath>
+    </Reference>
+    <Reference Include="ICSharpCode.SharpZipLib, Version=0.86.0.518, Culture=neutral, PublicKeyToken=1b03e6acf1164f73, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>DLL\NPOI 2.2.1\ICSharpCode.SharpZipLib.dll</HintPath>
+    </Reference>
     <Reference Include="Newtonsoft.Json, Version=4.5.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
       <HintPath>DLL\Newtonsoft.Json.dll</HintPath>
     </Reference>
+    <Reference Include="NPOI, Version=2.2.1.0, Culture=neutral, PublicKeyToken=0df73ec7942b34e1, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>DLL\NPOI 2.2.1\NPOI.dll</HintPath>
+    </Reference>
+    <Reference Include="NPOI.OOXML, Version=2.2.1.0, Culture=neutral, PublicKeyToken=0df73ec7942b34e1, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>DLL\NPOI 2.2.1\NPOI.OOXML.dll</HintPath>
+    </Reference>
+    <Reference Include="NPOI.OpenXml4Net, Version=2.2.1.0, Culture=neutral, PublicKeyToken=0df73ec7942b34e1, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>DLL\NPOI 2.2.1\NPOI.OpenXml4Net.dll</HintPath>
+    </Reference>
+    <Reference Include="NPOI.OpenXmlFormats, Version=2.2.1.0, Culture=neutral, PublicKeyToken=0df73ec7942b34e1, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>DLL\NPOI 2.2.1\NPOI.OpenXmlFormats.dll</HintPath>
+    </Reference>
     <Reference Include="System" />
+    <Reference Include="System.Configuration" />
     <Reference Include="System.Core" />
     <Reference Include="System.Drawing" />
+    <Reference Include="System.Runtime.Serialization.Formatters.Soap" />
     <Reference Include="System.Web" />
     <Reference Include="System.Web.Mvc, Version=4.0.0.1, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL" />
     <Reference Include="System.Web.Services" />
+    <Reference Include="System.Windows.Forms" />
     <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Data.DataSetExtensions" />
     <Reference Include="Microsoft.CSharp" />
@@ -47,22 +74,102 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Applay\BarCodeHelper.cs" />
+    <Compile Include="Applay\DEncrypt\Base64DEncrypt.cs" />
+    <Compile Include="Applay\Video\VideoHelper.cs">
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
     <Compile Include="Basic\EnumHelper.cs" />
     <Compile Include="Basic\ModelAttributeHelper.cs" />
     <Compile Include="Basic\ModelCompareHelper.cs" />
     <Compile Include="Basic\DataTableHelper.cs" />
     <Compile Include="Applay\EncryptDESHelper.cs" />
+    <Compile Include="Applay\CsvHelper.cs" />
+    <Compile Include="Applay\CacheHelper.cs" />
+    <Compile Include="Applay\ConvertHelper.cs" />
+    <Compile Include="Applay\CookieHelper.cs" />
+    <Compile Include="Applay\DEncrypt\DESDEncrypt.cs" />
+    <Compile Include="Applay\DEncrypt\FileDEncrypt.cs" />
+    <Compile Include="Applay\DEncrypt\HashDEncrypt.cs" />
+    <Compile Include="Applay\DEncrypt\MD5Encrypt.cs" />
+    <Compile Include="Applay\Date\ChineseCalHelper.cs" />
+    <Compile Include="Applay\Mail\MailHelper.cs" />
+    <Compile Include="Applay\Excel\DataToExcel.cs" />
+    <Compile Include="Applay\Excel\ExcelHelper.cs" />
+    <Compile Include="Applay\Excel\GridViewExport.cs" />
+    <Compile Include="Applay\FTP\FTPClient.cs" />
+    <Compile Include="Applay\FTP\FTPHelper.cs" />
+    <Compile Include="Applay\File\DirectoryHelper.cs" />
+    <Compile Include="Applay\File\FileDownHelper.cs" />
+    <Compile Include="Applay\File\FileHelper.cs" />
+    <Compile Include="Applay\File\FileUpHelper.cs" />
+    <Compile Include="Applay\File\INIFileHelper.cs" />
+    <Compile Include="Applay\Formula\FormulaHelper.cs" />
+    <Compile Include="Applay\Html\HtmlHelper.cs" />
+    <Compile Include="Applay\Html\JavaScriptHelper.cs" />
+    <Compile Include="Applay\Image\ImageDown.cs" />
+    <Compile Include="Applay\Net\NetHelper.cs" />
+    <Compile Include="Applay\Net\IpHelper.cs" />
+    <Compile Include="Applay\Image\ImageHelper.cs" />
+    <Compile Include="Applay\Image\ImageUpload.cs" />
+    <Compile Include="Applay\Json\Json.cs" />
+    <Compile Include="Applay\Media\MediaHelper.cs" />
+    <Compile Include="Applay\Message\MessageBoxHelper.cs" />
+    <Compile Include="Applay\NPOI\NPOIHelper.cs" />
+    <Compile Include="Applay\Page\PageHelper.cs" />
+    <Compile Include="Applay\Page\PageBase.cs">
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Applay\Page\BindDataControl.cs" />
+    <Compile Include="Applay\Page\GridViewHelper.cs" />
+    <Compile Include="Applay\Page\PageValidate.cs" />
+    <Compile Include="Applay\PinYin\PinYinHelper.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="Applay\RMBSwitch.cs" />
     <Compile Include="Basic\StringsHelper.cs" />
     <Compile Include="Applay\WebServiceHelper.cs" />
     <Compile Include="Applay\XmlSerializeHelper.cs" />
     <Compile Include="Applay\Xml2JsonHelper.cs" />
     <Compile Include="Applay\SecureHelper.cs" />
-    <Compile Include="ValidateCodeHelper.cs" />
+    <Compile Include="Applay\ValidateCodeHelper.cs" />
+    <Compile Include="Applay\WebConfigHelper.cs" />
+    <Compile Include="Applay\DEncrypt\RSADEncrypt.cs" />
+    <Compile Include="Applay\DEncrypt\TripleDESDEncrypt.cs" />
+    <Compile Include="Applay\Date\TimeHelper.cs" />
+    <Compile Include="Applay\Mail\SmtpConfig.cs" />
+    <Compile Include="Applay\Mail\SmtpSetting.cs" />
+    <Compile Include="Basic\StringHelper.cs" />
+    <Compile Include="Applay\Net\WebClientHelper.cs" />
+    <Compile Include="Applay\Page\ValidateImgPage.cs">
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Applay\Path\WebSitePathHelper.cs" />
+    <Compile Include="Applay\RMB\RMBHelper.cs" />
+    <Compile Include="Applay\Random\RandomHelper.cs" />
+    <Compile Include="Applay\Regex\RegexHelper.cs" />
+    <Compile Include="Applay\Register\RegisterHelper.cs" />
+    <Compile Include="Applay\Serialize\SerializeHelper.cs" />
+    <Compile Include="Applay\Session\SessionHelper.cs" />
+    <Compile Include="Applay\System\SysHelper.cs" />
+    <Compile Include="Applay\Url\UrlHelper.cs" />
+    <Compile Include="Applay\Validator\ValidatorHelper.cs" />
+    <Compile Include="Applay\VerifyCode\VerifyCodeHelper.cs" />
+    <Compile Include="Applay\VerifyCode\VerifyCodeRand.cs" />
+    <Compile Include="Applay\XML\XmlHelper.cs" />
+    <Compile Include="Applay\XML\XmlHelperExt.cs" />
+    <Compile Include="Applay\Zip\ZipHelper.cs" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="DLL\ChnCharInfo.dll" />
     <Content Include="DLL\Newtonsoft.Json.dll" />
+    <Content Include="DLL\NPOI 2.2.1\ICSharpCode.SharpZipLib.dll" />
+    <Content Include="DLL\NPOI 2.2.1\NPOI.dll" />
+    <Content Include="DLL\NPOI 2.2.1\NPOI.OOXML.dll" />
+    <Content Include="DLL\NPOI 2.2.1\NPOI.OpenXml4Net.dll" />
+    <Content Include="DLL\NPOI 2.2.1\NPOI.OpenXmlFormats.dll" />
+    <Content Include="DLL\NPOI 2.2.1\NPOI.XML" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Applay\PDF\" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

@@ -1,54 +1,14 @@
 ﻿using System;
+using System.Collections.Generic;
+using System.Text;
 
 namespace KeyshawnPo.Helper.Lib
 {
-    public class RMBSwitch
+    /// <summary> 
+    /// 人民币帮助类 
+    /// </summary> 
+    public class RMBHelper
     {
-        #region 构造
-        /// <summary>
-        /// 私有构造函数，禁止外界访问
-        /// </summary>
-        private RMBSwitch()
-        { }
-        #endregion
-
-        #region 变量
-        /// <summary>
-        /// 静态变量，用于保存类的实例
-        /// </summary>
-        private static RMBSwitch instance;
-        /// <summary>
-        /// 线程标志，确保线程同步
-        /// </summary>
-        private static object locker = new object();
-        #endregion
-
-        #region 属性
-        /// <summary>
-        /// 定义公共属性，使全局均可访问
-        /// </summary>
-        public static RMBSwitch Instance
-        {
-            get
-            {
-                //实例不存在则创建
-                if (instance == null)
-                {
-                    //当线程来的时候进程先挂起
-                    lock (locker)
-                    {
-                        if (instance == null)
-                        {
-                            instance = new RMBSwitch();
-                        }
-                    }
-                }
-                return instance;
-            }
-        }
-
-        #endregion
-
         /// <summary> 
         /// 转换人民币大小金额 
         /// </summary> 
@@ -185,4 +145,5 @@ namespace KeyshawnPo.Helper.Lib
             }
         }
     }
+
 }
