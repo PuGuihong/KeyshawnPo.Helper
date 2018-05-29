@@ -2,3 +2,4 @@ D:\OwnerTemp\WorkInfo\KeyshawnPo.CodeLib\KeyshawnPo.Helper\KeyshawnPo.Helper.Lib
 D:\OwnerTemp\WorkInfo\KeyshawnPo.CodeLib\KeyshawnPo.Helper\KeyshawnPo.Helper.Lib\bin\Debug\KeyshawnPo.Helper.Lib.pdb
 D:\OwnerTemp\WorkInfo\KeyshawnPo.CodeLib\KeyshawnPo.Helper\KeyshawnPo.Helper.Lib\obj\Debug\KeyshawnPo.Helper.Lib.dll
 D:\OwnerTemp\WorkInfo\KeyshawnPo.CodeLib\KeyshawnPo.Helper\KeyshawnPo.Helper.Lib\obj\Debug\KeyshawnPo.Helper.Lib.pdb
+D:\OwnerTemp\WorkInfo\KeyshawnPo.CodeLib\KeyshawnPo.Helper\KeyshawnPo.Helper.Lib\bin\Debug\Newtonsoft.Json.dll

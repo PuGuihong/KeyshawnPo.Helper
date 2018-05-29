@@ -30,8 +30,13 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="Newtonsoft.Json, Version=4.5.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>DLL\Newtonsoft.Json.dll</HintPath>
+    </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
+    <Reference Include="System.Drawing" />
     <Reference Include="System.Web" />
     <Reference Include="System.Web.Mvc, Version=4.0.0.1, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL" />
     <Reference Include="System.Web.Services" />
@@ -43,12 +48,22 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Basic\EnumHelper.cs" />
+    <Compile Include="Basic\ModelAttributeHelper.cs" />
+    <Compile Include="Basic\ModelCompareHelper.cs" />
+    <Compile Include="Basic\DataTableHelper.cs" />
+    <Compile Include="Applay\EncryptDESHelper.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Applay\RMBSwitch.cs" />
     <Compile Include="Basic\StringsHelper.cs" />
-    <Compile Include="WebServiceHelper.cs" />
+    <Compile Include="Applay\WebServiceHelper.cs" />
+    <Compile Include="Applay\XmlSerializeHelper.cs" />
+    <Compile Include="Applay\Xml2JsonHelper.cs" />
+    <Compile Include="Applay\SecureHelper.cs" />
+    <Compile Include="ValidateCodeHelper.cs" />
   </ItemGroup>
-  <ItemGroup />
+  <ItemGroup>
+    <Content Include="DLL\Newtonsoft.Json.dll" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.
