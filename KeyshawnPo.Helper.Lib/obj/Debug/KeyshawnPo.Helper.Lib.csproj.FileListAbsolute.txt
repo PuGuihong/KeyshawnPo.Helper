@@ -17,4 +17,3 @@ D:\OwnerTemp\WorkInfo\KeyshawnPo.CodeLib\KeyshawnPo.Helper\KeyshawnPo.Helper.Lib
 D:\OwnerTemp\WorkInfo\KeyshawnPo.CodeLib\KeyshawnPo.Helper\KeyshawnPo.Helper.Lib\bin\Debug\System.Net.Http.Formatting.xml
 D:\OwnerTemp\WorkInfo\KeyshawnPo.CodeLib\KeyshawnPo.Helper\KeyshawnPo.Helper.Lib\bin\Debug\System.Web.Http.xml
 D:\OwnerTemp\WorkInfo\KeyshawnPo.CodeLib\KeyshawnPo.Helper\KeyshawnPo.Helper.Lib\bin\Debug\System.Web.Http.WebHost.xml
-D:\OwnerTemp\WorkInfo\KeyshawnPo.CodeLib\KeyshawnPo.Helper\KeyshawnPo.Helper.Lib\obj\Debug\KeyshawnPo.Helper.Lib.csprojResolveAssemblyReference.cache

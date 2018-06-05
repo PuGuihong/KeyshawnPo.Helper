@@ -9,9 +9,19 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KeyshawnPo.Demo.Entity", ".
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KeyshawnPo.Demo.Console", "..\KeyshawnPo.Demo.Console\KeyshawnPo.Demo.Console\KeyshawnPo.Demo.Console.csproj", "{46F408FA-F8AB-46F3-89EF-AD65A2A1D4A4}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KeyshawnPo.Demo.WebSite", "..\KeyshawnPo.Demo.WebSite\KeyshawnPo.Demo.WebSite\KeyshawnPo.Demo.WebSite.csproj", "{B681CDE2-BC26-4C92-BE17-BEC14DF3A0CF}"
-EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KeyshawnPo.Demo.Winform", "..\KeyshawnPo.Demo.Winform\KeyshawnPo.Demo.Winform\KeyshawnPo.Demo.Winform.csproj", "{323FAFAF-3BA7-44FC-BE74-40CC87AA29F9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KeyshawnPo.Demo.Quartz", "..\KeyshawnPo.Demo.Quartz\KeyshawnPo.Demo.Quartz\KeyshawnPo.Demo.Quartz.csproj", "{CEA95CFF-5922-4DF0-A7E4-075CA35A2AA0}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "KeyshawnPo.Demo.Archtect", "KeyshawnPo.Demo.Archtect", "{E3093B49-1968-439E-9A42-D7B88F8D1959}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Quartz", "Quartz", "{97B7CAF3-4021-4915-AE19-36BF9C5FB423}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Log4net", "Log4net", "{5235CE42-C720-4774-ABE6-1DD3DB0DB6D8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Quartz.2010", "..\Quartz\Quartz.2010.csproj", "{AEF8823B-E45B-4B35-A4D0-C08C1196D017}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KeyshawnPo.Demo.QuartzConsole", "..\KeyshawnPo.Demo.QuartzConsole\KeyshawnPo.Demo.QuartzConsole\KeyshawnPo.Demo.QuartzConsole.csproj", "{EB9CED40-AC8B-46CF-9DDF-C9B850FDAABE}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -31,16 +41,31 @@ Global
 		{46F408FA-F8AB-46F3-89EF-AD65A2A1D4A4}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{46F408FA-F8AB-46F3-89EF-AD65A2A1D4A4}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{46F408FA-F8AB-46F3-89EF-AD65A2A1D4A4}.Release|Any CPU.Build.0 = Release|Any CPU
-		{B681CDE2-BC26-4C92-BE17-BEC14DF3A0CF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{B681CDE2-BC26-4C92-BE17-BEC14DF3A0CF}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{B681CDE2-BC26-4C92-BE17-BEC14DF3A0CF}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{B681CDE2-BC26-4C92-BE17-BEC14DF3A0CF}.Release|Any CPU.Build.0 = Release|Any CPU
 		{323FAFAF-3BA7-44FC-BE74-40CC87AA29F9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{323FAFAF-3BA7-44FC-BE74-40CC87AA29F9}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{323FAFAF-3BA7-44FC-BE74-40CC87AA29F9}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{323FAFAF-3BA7-44FC-BE74-40CC87AA29F9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CEA95CFF-5922-4DF0-A7E4-075CA35A2AA0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CEA95CFF-5922-4DF0-A7E4-075CA35A2AA0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CEA95CFF-5922-4DF0-A7E4-075CA35A2AA0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CEA95CFF-5922-4DF0-A7E4-075CA35A2AA0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AEF8823B-E45B-4B35-A4D0-C08C1196D017}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AEF8823B-E45B-4B35-A4D0-C08C1196D017}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AEF8823B-E45B-4B35-A4D0-C08C1196D017}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AEF8823B-E45B-4B35-A4D0-C08C1196D017}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EB9CED40-AC8B-46CF-9DDF-C9B850FDAABE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EB9CED40-AC8B-46CF-9DDF-C9B850FDAABE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EB9CED40-AC8B-46CF-9DDF-C9B850FDAABE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EB9CED40-AC8B-46CF-9DDF-C9B850FDAABE}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{CEA95CFF-5922-4DF0-A7E4-075CA35A2AA0} = {97B7CAF3-4021-4915-AE19-36BF9C5FB423}
+		{97B7CAF3-4021-4915-AE19-36BF9C5FB423} = {E3093B49-1968-439E-9A42-D7B88F8D1959}
+		{5235CE42-C720-4774-ABE6-1DD3DB0DB6D8} = {E3093B49-1968-439E-9A42-D7B88F8D1959}
+		{AEF8823B-E45B-4B35-A4D0-C08C1196D017} = {97B7CAF3-4021-4915-AE19-36BF9C5FB423}
+		{EB9CED40-AC8B-46CF-9DDF-C9B850FDAABE} = {97B7CAF3-4021-4915-AE19-36BF9C5FB423}
 	EndGlobalSection
 EndGlobal
