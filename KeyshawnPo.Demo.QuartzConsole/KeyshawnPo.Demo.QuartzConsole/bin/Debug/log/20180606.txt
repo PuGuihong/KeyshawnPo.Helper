@@ -1,0 +1,117 @@
+﻿2018-06-06 15:01:13,921 INFO  KeyshawnPo.Demo.QuartzConsole.Program  - --------------值不能为 null。
+参数名: String -------------------
+2018-06-06 15:28:42,069 INFO  KeyshawnPo.Demo.QuartzConsole.Program  - --------------值不能为 null。
+参数名: String -------------------
+2018-06-06 15:29:06,687 INFO  KeyshawnPo.Demo.QuartzConsole.SendMsgAction  - ------- Initializing ----------------------
+2018-06-06 15:29:07,025 INFO  Quartz.Impl.StdSchedulerFactory  - Default Quartz.NET properties loaded from embedded resource file
+2018-06-06 15:29:07,159 INFO  Quartz.Impl.StdSchedulerFactory  - Using default implementation for object serializer
+2018-06-06 15:29:07,272 INFO  Quartz.Impl.StdSchedulerFactory  - Using default implementation for ThreadExecutor
+2018-06-06 15:29:07,371 INFO  Quartz.Core.SchedulerSignalerImpl  - Initialized Scheduler Signaller of type: Quartz.Core.SchedulerSignalerImpl
+2018-06-06 15:29:07,430 INFO  Quartz.Core.QuartzScheduler  - Quartz Scheduler v.0.0.0.0 created.
+2018-06-06 15:29:07,483 INFO  Quartz.Simpl.RAMJobStore  - RAMJobStore initialized.
+2018-06-06 15:29:07,546 INFO  Quartz.Core.QuartzScheduler  - Scheduler meta-data: Quartz Scheduler (v0.0.0.0) 'DefaultQuartzScheduler' with instanceId 'NON_CLUSTERED'
+  Scheduler class: 'Quartz.Core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'Quartz.Simpl.SimpleThreadPool' - with 10 threads.
+  Using job-store 'Quartz.Simpl.RAMJobStore' - which does not support persistence. and is not clustered.
+
+2018-06-06 15:29:07,598 INFO  Quartz.Impl.StdSchedulerFactory  - Quartz scheduler 'DefaultQuartzScheduler' initialized
+2018-06-06 15:29:07,644 INFO  Quartz.Impl.StdSchedulerFactory  - Quartz scheduler version: 0.0.0.0
+2018-06-06 15:29:07,690 INFO  KeyshawnPo.Demo.QuartzConsole.SendMsgAction  - ------- Initialization Complete -----------
+2018-06-06 15:29:07,735 INFO  KeyshawnPo.Demo.QuartzConsole.SendMsgAction  - ------- Scheduling Job  -------------------
+2018-06-06 15:29:07,794 INFO  KeyshawnPo.Demo.QuartzConsole.SendMsgAction  - group1.job1 will run at: Wed, 06 Jun 2018 07:30:00 GMT
+2018-06-06 15:29:07,840 INFO  Quartz.Core.QuartzScheduler  - Scheduler DefaultQuartzScheduler_$_NON_CLUSTERED started.
+2018-06-06 15:29:07,891 INFO  KeyshawnPo.Demo.QuartzConsole.SendMsgAction  - ------- Started Scheduler -----------------
+2018-06-06 15:29:07,932 INFO  KeyshawnPo.Demo.QuartzConsole.SendMsgAction  - ------- Waiting 1 seconds... -------------
+2018-06-06 15:29:09,024 INFO  KeyshawnPo.Demo.QuartzConsole.SendMsgAction  - ------- Shutting Down ---------------------
+2018-06-06 15:29:09,071 INFO  Quartz.Core.QuartzScheduler  - Scheduler DefaultQuartzScheduler_$_NON_CLUSTERED shutting down.
+2018-06-06 15:29:09,123 INFO  Quartz.Core.QuartzScheduler  - Scheduler DefaultQuartzScheduler_$_NON_CLUSTERED paused.
+2018-06-06 15:29:09,823 INFO  Quartz.Core.QuartzScheduler  - Scheduler DefaultQuartzScheduler_$_NON_CLUSTERED Shutdown complete.
+2018-06-06 15:29:09,866 INFO  KeyshawnPo.Demo.QuartzConsole.SendMsgAction  - ------- Shutdown Complete -----------------
+2018-06-06 15:29:42,210 INFO  KeyshawnPo.Demo.QuartzConsole.SendMsgAction  - ------- Initializing ----------------------
+2018-06-06 15:29:42,348 INFO  Quartz.Impl.StdSchedulerFactory  - Default Quartz.NET properties loaded from embedded resource file
+2018-06-06 15:29:42,420 INFO  Quartz.Impl.StdSchedulerFactory  - Using default implementation for object serializer
+2018-06-06 15:29:42,545 INFO  Quartz.Impl.StdSchedulerFactory  - Using default implementation for ThreadExecutor
+2018-06-06 15:29:42,638 INFO  Quartz.Core.SchedulerSignalerImpl  - Initialized Scheduler Signaller of type: Quartz.Core.SchedulerSignalerImpl
+2018-06-06 15:29:42,688 INFO  Quartz.Core.QuartzScheduler  - Quartz Scheduler v.0.0.0.0 created.
+2018-06-06 15:29:42,749 INFO  Quartz.Simpl.RAMJobStore  - RAMJobStore initialized.
+2018-06-06 15:29:42,801 INFO  Quartz.Core.QuartzScheduler  - Scheduler meta-data: Quartz Scheduler (v0.0.0.0) 'DefaultQuartzScheduler' with instanceId 'NON_CLUSTERED'
+  Scheduler class: 'Quartz.Core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'Quartz.Simpl.SimpleThreadPool' - with 10 threads.
+  Using job-store 'Quartz.Simpl.RAMJobStore' - which does not support persistence. and is not clustered.
+
+2018-06-06 15:29:42,850 INFO  Quartz.Impl.StdSchedulerFactory  - Quartz scheduler 'DefaultQuartzScheduler' initialized
+2018-06-06 15:29:42,897 INFO  Quartz.Impl.StdSchedulerFactory  - Quartz scheduler version: 0.0.0.0
+2018-06-06 15:29:42,950 INFO  KeyshawnPo.Demo.QuartzConsole.SendMsgAction  - ------- Initialization Complete -----------
+2018-06-06 15:29:42,992 INFO  KeyshawnPo.Demo.QuartzConsole.SendMsgAction  - ------- Scheduling Job  -------------------
+2018-06-06 15:29:43,051 INFO  KeyshawnPo.Demo.QuartzConsole.SendMsgAction  - group1.job1 will run at: Wed, 06 Jun 2018 07:30:00 GMT
+2018-06-06 15:29:43,097 INFO  Quartz.Core.QuartzScheduler  - Scheduler DefaultQuartzScheduler_$_NON_CLUSTERED started.
+2018-06-06 15:29:43,144 INFO  KeyshawnPo.Demo.QuartzConsole.SendMsgAction  - ------- Started Scheduler -----------------
+2018-06-06 15:29:43,187 INFO  KeyshawnPo.Demo.QuartzConsole.SendMsgAction  - ------- Waiting 1 seconds... -------------
+2018-06-06 15:29:44,232 INFO  KeyshawnPo.Demo.QuartzConsole.SendMsgAction  - ------- Shutting Down ---------------------
+2018-06-06 15:29:44,275 INFO  Quartz.Core.QuartzScheduler  - Scheduler DefaultQuartzScheduler_$_NON_CLUSTERED shutting down.
+2018-06-06 15:29:44,327 INFO  Quartz.Core.QuartzScheduler  - Scheduler DefaultQuartzScheduler_$_NON_CLUSTERED paused.
+2018-06-06 15:29:45,401 INFO  Quartz.Core.QuartzScheduler  - Scheduler DefaultQuartzScheduler_$_NON_CLUSTERED Shutdown complete.
+2018-06-06 15:29:45,446 INFO  KeyshawnPo.Demo.QuartzConsole.SendMsgAction  - ------- Shutdown Complete -----------------
+2018-06-06 15:32:46,126 INFO  KeyshawnPo.Demo.QuartzConsole.SendMsgAction  - ------- 任务初始化 ----------------------
+2018-06-06 15:32:46,262 INFO  Quartz.Impl.StdSchedulerFactory  - Default Quartz.NET properties loaded from embedded resource file
+2018-06-06 15:32:46,334 INFO  Quartz.Impl.StdSchedulerFactory  - Using default implementation for object serializer
+2018-06-06 15:32:46,441 INFO  Quartz.Impl.StdSchedulerFactory  - Using default implementation for ThreadExecutor
+2018-06-06 15:32:46,523 INFO  Quartz.Core.SchedulerSignalerImpl  - Initialized Scheduler Signaller of type: Quartz.Core.SchedulerSignalerImpl
+2018-06-06 15:32:46,588 INFO  Quartz.Core.QuartzScheduler  - Quartz Scheduler v.0.0.0.0 created.
+2018-06-06 15:32:46,639 INFO  Quartz.Simpl.RAMJobStore  - RAMJobStore initialized.
+2018-06-06 15:32:46,690 INFO  Quartz.Core.QuartzScheduler  - Scheduler meta-data: Quartz Scheduler (v0.0.0.0) 'DefaultQuartzScheduler' with instanceId 'NON_CLUSTERED'
+  Scheduler class: 'Quartz.Core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'Quartz.Simpl.SimpleThreadPool' - with 10 threads.
+  Using job-store 'Quartz.Simpl.RAMJobStore' - which does not support persistence. and is not clustered.
+
+2018-06-06 15:32:46,741 INFO  Quartz.Impl.StdSchedulerFactory  - Quartz scheduler 'DefaultQuartzScheduler' initialized
+2018-06-06 15:32:46,792 INFO  Quartz.Impl.StdSchedulerFactory  - Quartz scheduler version: 0.0.0.0
+2018-06-06 15:32:46,840 INFO  KeyshawnPo.Demo.QuartzConsole.SendMsgAction  - ------- 任务初始化完成 -----------
+2018-06-06 15:32:46,882 INFO  KeyshawnPo.Demo.QuartzConsole.SendMsgAction  - ------- 任务调度  -------------------
+2018-06-06 15:32:46,943 INFO  KeyshawnPo.Demo.QuartzConsole.SendMsgAction  - group1.job1 将在 Wed, 06 Jun 2018 07:33:00 GMT 执行！
+2018-06-06 15:32:46,987 INFO  Quartz.Core.QuartzScheduler  - Scheduler DefaultQuartzScheduler_$_NON_CLUSTERED started.
+2018-06-06 15:32:47,037 INFO  KeyshawnPo.Demo.QuartzConsole.SendMsgAction  - ------- 开始调度 -----------------
+2018-06-06 15:32:47,083 INFO  KeyshawnPo.Demo.QuartzConsole.SendMsgAction  - ------- 等待1秒钟... -------------
+2018-06-06 15:32:48,176 INFO  KeyshawnPo.Demo.QuartzConsole.SendMsgAction  - ------- 任务调度关闭 ---------------------
+2018-06-06 15:32:48,222 INFO  Quartz.Core.QuartzScheduler  - Scheduler DefaultQuartzScheduler_$_NON_CLUSTERED shutting down.
+2018-06-06 15:32:48,275 INFO  Quartz.Core.QuartzScheduler  - Scheduler DefaultQuartzScheduler_$_NON_CLUSTERED paused.
+2018-06-06 15:32:49,040 INFO  Quartz.Core.QuartzScheduler  - Scheduler DefaultQuartzScheduler_$_NON_CLUSTERED Shutdown complete.
+2018-06-06 15:32:49,091 INFO  KeyshawnPo.Demo.QuartzConsole.SendMsgAction  - ------- 任务调度关闭完成! -----------------
+2018-06-06 15:34:58,644 INFO  KeyshawnPo.Demo.QuartzConsole.SendMsgAction  - ------- 任务初始化 ----------------------
+2018-06-06 15:34:58,779 INFO  Quartz.Impl.StdSchedulerFactory  - Default Quartz.NET properties loaded from embedded resource file
+2018-06-06 15:34:58,850 INFO  Quartz.Impl.StdSchedulerFactory  - Using default implementation for object serializer
+2018-06-06 15:34:58,960 INFO  Quartz.Impl.StdSchedulerFactory  - Using default implementation for ThreadExecutor
+2018-06-06 15:34:59,050 INFO  Quartz.Core.SchedulerSignalerImpl  - Initialized Scheduler Signaller of type: Quartz.Core.SchedulerSignalerImpl
+2018-06-06 15:34:59,106 INFO  Quartz.Core.QuartzScheduler  - Quartz Scheduler v.0.0.0.0 created.
+2018-06-06 15:34:59,174 INFO  Quartz.Simpl.RAMJobStore  - RAMJobStore initialized.
+2018-06-06 15:34:59,227 INFO  Quartz.Core.QuartzScheduler  - Scheduler meta-data: Quartz Scheduler (v0.0.0.0) 'DefaultQuartzScheduler' with instanceId 'NON_CLUSTERED'
+  Scheduler class: 'Quartz.Core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'Quartz.Simpl.SimpleThreadPool' - with 10 threads.
+  Using job-store 'Quartz.Simpl.RAMJobStore' - which does not support persistence. and is not clustered.
+
+2018-06-06 15:34:59,277 INFO  Quartz.Impl.StdSchedulerFactory  - Quartz scheduler 'DefaultQuartzScheduler' initialized
+2018-06-06 15:34:59,329 INFO  Quartz.Impl.StdSchedulerFactory  - Quartz scheduler version: 0.0.0.0
+2018-06-06 15:34:59,376 INFO  KeyshawnPo.Demo.QuartzConsole.SendMsgAction  - ------- 任务初始化完成 -----------
+2018-06-06 15:34:59,417 INFO  KeyshawnPo.Demo.QuartzConsole.SendMsgAction  - ------- 任务调度  -------------------
+2018-06-06 15:34:59,478 INFO  KeyshawnPo.Demo.QuartzConsole.SendMsgAction  - group1.job1 将在 2018-06-06 07:35:00,0000 执行！
+2018-06-06 15:34:59,521 INFO  Quartz.Core.QuartzScheduler  - Scheduler DefaultQuartzScheduler_$_NON_CLUSTERED started.
+2018-06-06 15:34:59,568 INFO  KeyshawnPo.Demo.QuartzConsole.SendMsgAction  - ------- 开始调度 -----------------
+2018-06-06 15:34:59,615 INFO  KeyshawnPo.Demo.QuartzConsole.SendMsgAction  - ------- 等待12秒钟... -------------
+2018-06-06 15:35:05,752 INFO  KeyshawnPo.Demo.QuartzConsole.SendMsgJob  - 执行具体的方法! - 2018-06-06 15:35:05,7523
+2018-06-06 15:35:11,661 INFO  KeyshawnPo.Demo.QuartzConsole.SendMsgAction  - ------- 任务调度关闭 ---------------------
+2018-06-06 15:35:11,709 INFO  Quartz.Core.QuartzScheduler  - Scheduler DefaultQuartzScheduler_$_NON_CLUSTERED shutting down.
+2018-06-06 15:35:11,759 INFO  Quartz.Core.QuartzScheduler  - Scheduler DefaultQuartzScheduler_$_NON_CLUSTERED paused.
+2018-06-06 15:35:12,743 INFO  Quartz.Core.QuartzScheduler  - Scheduler DefaultQuartzScheduler_$_NON_CLUSTERED Shutdown complete.
+2018-06-06 15:35:12,792 INFO  KeyshawnPo.Demo.QuartzConsole.SendMsgAction  - ------- 任务调度关闭完成! -----------------
