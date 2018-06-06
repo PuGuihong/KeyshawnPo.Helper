@@ -1,0 +1,3 @@
+﻿2018-06-06 11:35:47,362 INFO  KeyshawnPo.Demo.Log4Net.Program  - --------------log -------------------
+2018-06-06 11:37:41,152 INFO  KeyshawnPo.Demo.Log4Net.Program  - --------------值不能为 null。
+参数名: String -------------------

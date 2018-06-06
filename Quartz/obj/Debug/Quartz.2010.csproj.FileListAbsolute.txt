@@ -1,0 +1,17 @@
+C:\Users\hhb\Downloads\quartznet-2.6.2\quartznet-2.6.2\build\4.0\Debug\Quartz\Quartz.dll
+C:\Users\hhb\Downloads\quartznet-2.6.2\quartznet-2.6.2\build\4.0\Debug\Quartz\Quartz.pdb
+C:\Users\hhb\Downloads\quartznet-2.6.2\quartznet-2.6.2\build\4.0\Debug\Quartz\Quartz.xml
+C:\Users\hhb\Downloads\quartznet-2.6.2\quartznet-2.6.2\src\Quartz\obj\Debug\Quartz.dll
+C:\Users\hhb\Downloads\quartznet-2.6.2\quartznet-2.6.2\src\Quartz\obj\Debug\Quartz.pdb
+D:\OwnerTemp\WorkInfo\build\4.0\Debug\Quartz\Quartz.dll
+D:\OwnerTemp\WorkInfo\build\4.0\Debug\Quartz\Quartz.pdb
+D:\OwnerTemp\WorkInfo\build\4.0\Debug\Quartz\Quartz.xml
+D:\OwnerTemp\WorkInfo\KeyshawnPo.CodeLib\Quartz\obj\Debug\Quartz.dll
+D:\OwnerTemp\WorkInfo\KeyshawnPo.CodeLib\Quartz\obj\Debug\Quartz.pdb
+D:\OwnerTemp\WorkInfo\KeyshawnPo.CodeLib\Quartz\obj\Debug\Quartz.2010.csprojResolveAssemblyReference.cache
+D:\OwnerTemp\WorkInfo\KeyshawnPo.CodeLib\build\4.0\Debug\Quartz\Quartz.dll
+D:\OwnerTemp\WorkInfo\KeyshawnPo.CodeLib\build\4.0\Debug\Quartz\Quartz.pdb
+D:\OwnerTemp\WorkInfo\KeyshawnPo.CodeLib\build\4.0\Debug\Quartz\Quartz.xml
+D:\OwnerTemp\WorkInfo\KeyshawnPo.CodeLib\KeyshawnPo.Helper\Quartz\obj\Debug\Quartz.2010.csprojResolveAssemblyReference.cache
+D:\OwnerTemp\WorkInfo\KeyshawnPo.CodeLib\KeyshawnPo.Helper\Quartz\obj\Debug\Quartz.dll
+D:\OwnerTemp\WorkInfo\KeyshawnPo.CodeLib\KeyshawnPo.Helper\Quartz\obj\Debug\Quartz.pdb
