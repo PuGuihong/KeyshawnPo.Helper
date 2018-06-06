@@ -21,6 +21,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Log4Net", "Log4Net", "{6607
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Quartz", "Quartz", "{4FEF6C0C-FF1E-4DF5-A6E3-8CA92E9F5C19}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KeyshawnPo.Demo.QuartzConsole", "KeyshawnPo.Demo.QuartzConsole\KeyshawnPo.Demo.QuartzConsole\KeyshawnPo.Demo.QuartzConsole.csproj", "{A5E428E0-40D3-4513-9633-482DF452E522}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -51,6 +53,10 @@ Global
 		{4859025C-9F2E-468B-87F9-F89C4D920703}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4859025C-9F2E-468B-87F9-F89C4D920703}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{4859025C-9F2E-468B-87F9-F89C4D920703}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A5E428E0-40D3-4513-9633-482DF452E522}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A5E428E0-40D3-4513-9633-482DF452E522}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A5E428E0-40D3-4513-9633-482DF452E522}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A5E428E0-40D3-4513-9633-482DF452E522}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -60,5 +66,6 @@ Global
 		{4859025C-9F2E-468B-87F9-F89C4D920703} = {660784A4-A527-49BA-8D5B-24126223147A}
 		{660784A4-A527-49BA-8D5B-24126223147A} = {E5360EC2-370E-4A5A-846E-0BAC1F1891C6}
 		{4FEF6C0C-FF1E-4DF5-A6E3-8CA92E9F5C19} = {E5360EC2-370E-4A5A-846E-0BAC1F1891C6}
+		{A5E428E0-40D3-4513-9633-482DF452E522} = {4FEF6C0C-FF1E-4DF5-A6E3-8CA92E9F5C19}
 	EndGlobalSection
 EndGlobal

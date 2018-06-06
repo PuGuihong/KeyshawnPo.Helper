@@ -12,6 +12,5 @@ D:\OwnerTemp\WorkInfo\KeyshawnPo.CodeLib\Quartz\obj\Debug\Quartz.2010.csprojReso
 D:\OwnerTemp\WorkInfo\KeyshawnPo.CodeLib\build\4.0\Debug\Quartz\Quartz.dll
 D:\OwnerTemp\WorkInfo\KeyshawnPo.CodeLib\build\4.0\Debug\Quartz\Quartz.pdb
 D:\OwnerTemp\WorkInfo\KeyshawnPo.CodeLib\build\4.0\Debug\Quartz\Quartz.xml
-D:\OwnerTemp\WorkInfo\KeyshawnPo.CodeLib\KeyshawnPo.Helper\Quartz\obj\Debug\Quartz.2010.csprojResolveAssemblyReference.cache
 D:\OwnerTemp\WorkInfo\KeyshawnPo.CodeLib\KeyshawnPo.Helper\Quartz\obj\Debug\Quartz.dll
 D:\OwnerTemp\WorkInfo\KeyshawnPo.CodeLib\KeyshawnPo.Helper\Quartz\obj\Debug\Quartz.pdb
