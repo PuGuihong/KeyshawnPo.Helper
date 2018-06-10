@@ -1,0 +1,9 @@
+D:\OwnerTemp\WorkInfo\KeyshawnPo.CodeLib\KeyshawnPo.Helper\KeyshawnPo.Demo.HtmlFactory\bin\Debug\KeyshawnPo.Demo.HtmlFactory.exe.config
+D:\OwnerTemp\WorkInfo\KeyshawnPo.CodeLib\KeyshawnPo.Helper\KeyshawnPo.Demo.HtmlFactory\bin\Debug\KeyshawnPo.Demo.HtmlFactory.exe
+D:\OwnerTemp\WorkInfo\KeyshawnPo.CodeLib\KeyshawnPo.Helper\KeyshawnPo.Demo.HtmlFactory\bin\Debug\KeyshawnPo.Demo.HtmlFactory.pdb
+D:\OwnerTemp\WorkInfo\KeyshawnPo.CodeLib\KeyshawnPo.Helper\KeyshawnPo.Demo.HtmlFactory\bin\Debug\HtmlAgilityPack.dll
+D:\OwnerTemp\WorkInfo\KeyshawnPo.CodeLib\KeyshawnPo.Helper\KeyshawnPo.Demo.HtmlFactory\bin\Debug\HtmlAgilityPack.pdb
+D:\OwnerTemp\WorkInfo\KeyshawnPo.CodeLib\KeyshawnPo.Helper\KeyshawnPo.Demo.HtmlFactory\bin\Debug\HtmlAgilityPack.xml
+D:\OwnerTemp\WorkInfo\KeyshawnPo.CodeLib\KeyshawnPo.Helper\KeyshawnPo.Demo.HtmlFactory\obj\Debug\KeyshawnPo.Demo.HtmlFactory.csprojResolveAssemblyReference.cache
+D:\OwnerTemp\WorkInfo\KeyshawnPo.CodeLib\KeyshawnPo.Helper\KeyshawnPo.Demo.HtmlFactory\obj\Debug\KeyshawnPo.Demo.HtmlFactory.exe
+D:\OwnerTemp\WorkInfo\KeyshawnPo.CodeLib\KeyshawnPo.Helper\KeyshawnPo.Demo.HtmlFactory\obj\Debug\KeyshawnPo.Demo.HtmlFactory.pdb
