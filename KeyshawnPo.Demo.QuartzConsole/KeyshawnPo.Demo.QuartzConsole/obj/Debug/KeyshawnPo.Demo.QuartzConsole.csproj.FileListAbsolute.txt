@@ -19,3 +19,6 @@ D:\OwnerTemp\WorkInfo\KeyshawnPo.CodeLib\KeyshawnPo.Helper\KeyshawnPo.Demo.Quart
 D:\OwnerTemp\WorkInfo\KeyshawnPo.CodeLib\KeyshawnPo.Helper\KeyshawnPo.Demo.QuartzConsole\KeyshawnPo.Demo.QuartzConsole\bin\Debug\C5.dll
 D:\OwnerTemp\WorkInfo\KeyshawnPo.CodeLib\KeyshawnPo.Helper\KeyshawnPo.Demo.QuartzConsole\KeyshawnPo.Demo.QuartzConsole\bin\Debug\Quartz.pdb
 D:\OwnerTemp\WorkInfo\KeyshawnPo.CodeLib\KeyshawnPo.Helper\KeyshawnPo.Demo.QuartzConsole\KeyshawnPo.Demo.QuartzConsole\bin\Debug\Quartz.xml
+D:\MyCodePro\MyLib\keyshawnpo.helper\KeyshawnPo.Helper\KeyshawnPo.Demo.QuartzConsole\KeyshawnPo.Demo.QuartzConsole\bin\Debug\KeyshawnPo.Demo.QuartzConsole.exe.config
+D:\MyCodePro\MyLib\keyshawnpo.helper\KeyshawnPo.Helper\KeyshawnPo.Demo.QuartzConsole\KeyshawnPo.Demo.QuartzConsole\obj\Debug\KeyshawnPo.Demo.QuartzConsole.exe
+D:\MyCodePro\MyLib\keyshawnpo.helper\KeyshawnPo.Helper\KeyshawnPo.Demo.QuartzConsole\KeyshawnPo.Demo.QuartzConsole\obj\Debug\KeyshawnPo.Demo.QuartzConsole.pdb
