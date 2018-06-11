@@ -1,0 +1,59 @@
+﻿@model IEnumerable<Dao.EntityFramework.Tmplete>
+
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Index</title>
+</head>
+<body>
+    <p>
+        @Html.ActionLink("Create New", "Create")
+    </p>
+    <table class="table">
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.ParamKey)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.ParamValue)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.ParamRemarks)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.ParamVersion)
+            </th>
+            <th></th>
+        </tr>
+    
+    @foreach (var item in Model) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.ParamKey)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.ParamValue)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.ParamRemarks)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.ParamVersion)
+            </td>
+            <td>
+                @Html.ActionLink("Edit", "Edit", new { id=item.ID }) |
+                @Html.ActionLink("Details", "Details", new { id=item.ID }) |
+                @Html.ActionLink("Delete", "Delete", new { id=item.ID })
+            </td>
+        </tr>
+    }
+    
+    </table>
+</body>
+</html>

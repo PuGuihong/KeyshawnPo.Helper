@@ -55,6 +55,24 @@
     <None Include="App.config" />
     <None Include="packages.config" />
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\KeyshawnPo.Dao.EntityFramework\Dao.EntityFramework\Dao.EntityFramework.csproj">
+      <Project>{9855ab52-91af-4ec4-89b8-391ab19397ab}</Project>
+      <Name>Dao.EntityFramework</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\KeyshawnPo.Demo.Entity\KeyshawnPo.Demo.Entity\KeyshawnPo.Demo.Entity.csproj">
+      <Project>{6dea0567-b716-483e-ac8f-b9426e89bc17}</Project>
+      <Name>KeyshawnPo.Demo.Entity</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\KeyshawnPo.Helper.Lib\KeyshawnPo.Helper.Lib.csproj">
+      <Project>{4e7c45ac-ac71-46ab-801d-908c7dc5ef97}</Project>
+      <Name>KeyshawnPo.Helper.Lib</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\KeyshawnPo.HtmlEntity\KeyshawnPo.HtmlEntity.csproj">
+      <Project>{73bc6527-5a7e-4ebb-a70f-4d72cb4a14ac}</Project>
+      <Name>KeyshawnPo.HtmlEntity</Name>
+    </ProjectReference>
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <Import Project="$(SolutionDir)\.nuget\NuGet.targets" Condition="Exists('$(SolutionDir)\.nuget\NuGet.targets')" />
   <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">

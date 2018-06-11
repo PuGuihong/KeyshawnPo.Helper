@@ -6,7 +6,8 @@ using System.Threading.Tasks;
 
 namespace KeyshawnPo.HtmlEntity
 {
-    interface IHtmlElement
+    interface IHtmlHead
     {
+        
     }
 }

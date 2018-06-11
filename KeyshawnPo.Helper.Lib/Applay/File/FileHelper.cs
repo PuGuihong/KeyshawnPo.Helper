@@ -12,7 +12,7 @@ namespace KeyshawnPo.Helper.Lib
     /// <summary>
     /// 文件操作帮助类
     /// </summary>
-    public class FileHelper
+    public static class FileHelper
     {
         #region 取得文件后缀名
         /****************************************
