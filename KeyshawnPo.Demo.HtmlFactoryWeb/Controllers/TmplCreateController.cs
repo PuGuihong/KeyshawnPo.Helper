@@ -18,5 +18,11 @@ namespace KeyshawnPo.Demo.HtmlFactoryWeb.Controllers
 
             return View(_lstTmplete);
         }
+
+        public ActionResult Detail()
+        {
+
+            return View();
+        }
     }
 }
