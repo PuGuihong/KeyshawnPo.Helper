@@ -163,8 +163,18 @@ namespace KeyshawnPo.Demo.HtmlFactory
             string _articleTmp = " 企业合作推广模板 \br" + " 年月日 ，{CompanyAName} 与 {CompanyBName} 合作 ！";
 
 
-            Tmplete _tmpl = new Tmplete();
-            _tmpl.ID = Guid.NewGuid();
+
+
+
+
+
+            Entities _dbEntity = new Entities();
+            List<Tmplete> _tmpl = _dbEntity.Tmplete.ToList();
+            foreach (var item in _tmpl)
+            {
+                _articleTmp.Replace(item.ParamKey, item.ParamValue);
+
+            }
 
             return _article;
         }

@@ -1,0 +1,49 @@
+﻿@model IEnumerable<Dao.EntityFramework.Tmplete>
+
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Index</title>
+</head>
+<body>
+    <table>
+        <tr>
+            @foreach (var item in Model)
+            {
+                <td>
+                    @Html.LabelFor(modelItem => item.ParamKey, new { @onclick = "test()" })
+                </td>
+                @*<td>
+                        @Html.DisplayFor(modelItem => item.ParamValue)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.ParamRemarks)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.ParamVersion)
+                    </td>*@
+            }
+        </tr>
+        <tr>
+            <td colspan="4"></td>
+        </tr>
+        <tr>
+            <td colspan="4">
+                @Html.ActionLink("Save", "Save")
+            </td>
+        </tr>
+
+    </table>
+    <script type="text/javascript">
+        function test() {
+            alert("123");
+        }
+    </script>
+</body>
+</html>
