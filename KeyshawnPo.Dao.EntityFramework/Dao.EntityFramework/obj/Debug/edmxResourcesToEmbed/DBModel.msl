@@ -2,14 +2,14 @@
 <Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
   <EntityContainerMapping StorageEntityContainer="DbModelStoreContainer" CdmEntityContainer="Entities">
     <EntitySetMapping Name="Tmplete">
-      <EntityTypeMapping TypeName="DbModel.Tmplete">
+      <EntityTypeMapping TypeName="IsTypeOf(DbModel.Tmplete)">
         <MappingFragment StoreEntitySet="Tmplete">
-          <ScalarProperty Name="ParentID" ColumnName="ParentID" />
           <ScalarProperty Name="ID" ColumnName="ID" />
           <ScalarProperty Name="ParamKey" ColumnName="ParamKey" />
           <ScalarProperty Name="ParamValue" ColumnName="ParamValue" />
           <ScalarProperty Name="ParamRemarks" ColumnName="ParamRemarks" />
           <ScalarProperty Name="ParamVersion" ColumnName="ParamVersion" />
+          <ScalarProperty Name="ParentID" ColumnName="ParentID" />
         </MappingFragment>
       </EntityTypeMapping>
     </EntitySetMapping>

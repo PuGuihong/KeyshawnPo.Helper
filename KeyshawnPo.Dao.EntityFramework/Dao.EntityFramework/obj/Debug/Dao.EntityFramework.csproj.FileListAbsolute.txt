@@ -10,3 +10,15 @@ D:\OwnerTemp\WorkInfo\KeyshawnPo.CodeLib\KeyshawnPo.Helper\KeyshawnPo.Dao.Entity
 D:\OwnerTemp\WorkInfo\KeyshawnPo.CodeLib\KeyshawnPo.Helper\KeyshawnPo.Dao.EntityFramework\Dao.EntityFramework\obj\Debug\Dao.EntityFramework.dll
 D:\OwnerTemp\WorkInfo\KeyshawnPo.CodeLib\KeyshawnPo.Helper\KeyshawnPo.Dao.EntityFramework\Dao.EntityFramework\obj\Debug\Dao.EntityFramework.pdb
 D:\OwnerTemp\WorkInfo\KeyshawnPo.CodeLib\KeyshawnPo.Helper\KeyshawnPo.Dao.EntityFramework\Dao.EntityFramework\obj\Debug\Dao.EntityFramework.csprojResolveAssemblyReference.cache
+D:\MyCodePro\MyLib\keyshawnpo.helper\KeyshawnPo.Helper\KeyshawnPo.Helper\KeyshawnPo.Dao.EntityFramework\Dao.EntityFramework\bin\Debug\Dao.EntityFramework.dll.config
+D:\MyCodePro\MyLib\keyshawnpo.helper\KeyshawnPo.Helper\KeyshawnPo.Helper\KeyshawnPo.Dao.EntityFramework\Dao.EntityFramework\bin\Debug\Dao.EntityFramework.dll
+D:\MyCodePro\MyLib\keyshawnpo.helper\KeyshawnPo.Helper\KeyshawnPo.Helper\KeyshawnPo.Dao.EntityFramework\Dao.EntityFramework\bin\Debug\Dao.EntityFramework.pdb
+D:\MyCodePro\MyLib\keyshawnpo.helper\KeyshawnPo.Helper\KeyshawnPo.Helper\KeyshawnPo.Dao.EntityFramework\Dao.EntityFramework\bin\Debug\EntityFramework.dll
+D:\MyCodePro\MyLib\keyshawnpo.helper\KeyshawnPo.Helper\KeyshawnPo.Helper\KeyshawnPo.Dao.EntityFramework\Dao.EntityFramework\bin\Debug\EntityFramework.SqlServer.dll
+D:\MyCodePro\MyLib\keyshawnpo.helper\KeyshawnPo.Helper\KeyshawnPo.Helper\KeyshawnPo.Dao.EntityFramework\Dao.EntityFramework\bin\Debug\EntityFramework.xml
+D:\MyCodePro\MyLib\keyshawnpo.helper\KeyshawnPo.Helper\KeyshawnPo.Helper\KeyshawnPo.Dao.EntityFramework\Dao.EntityFramework\bin\Debug\EntityFramework.SqlServer.xml
+D:\MyCodePro\MyLib\keyshawnpo.helper\KeyshawnPo.Helper\KeyshawnPo.Helper\KeyshawnPo.Dao.EntityFramework\Dao.EntityFramework\bin\Debug\zh-Hans\EntityFramework.resources.dll
+D:\MyCodePro\MyLib\keyshawnpo.helper\KeyshawnPo.Helper\KeyshawnPo.Helper\KeyshawnPo.Dao.EntityFramework\Dao.EntityFramework\bin\Debug\zh-Hans\EntityFramework.SqlServer.resources.dll
+D:\MyCodePro\MyLib\keyshawnpo.helper\KeyshawnPo.Helper\KeyshawnPo.Helper\KeyshawnPo.Dao.EntityFramework\Dao.EntityFramework\obj\Debug\Dao.EntityFramework.csprojResolveAssemblyReference.cache
+D:\MyCodePro\MyLib\keyshawnpo.helper\KeyshawnPo.Helper\KeyshawnPo.Helper\KeyshawnPo.Dao.EntityFramework\Dao.EntityFramework\obj\Debug\Dao.EntityFramework.dll
+D:\MyCodePro\MyLib\keyshawnpo.helper\KeyshawnPo.Helper\KeyshawnPo.Helper\KeyshawnPo.Dao.EntityFramework\Dao.EntityFramework\obj\Debug\Dao.EntityFramework.pdb

@@ -9,20 +9,27 @@
 <head>
     <meta name="viewport" content="width=device-width" />
     <title>Index</title>
-
-    <script src="~/Scripts/jquery.easyui-1.4.5.js"></script>
+    <link href="~/Content/themes/default/easyui.css" rel="stylesheet" />
+    <link href="~/Content/themes/icon.css" rel="stylesheet" />
     <script src="~/Scripts/jquery-1.11.3.js"></script>
+    <script src="~/Scripts/jquery.easyui-1.3.5.js"></script>
+
 </head>
 <body>
-    <table id="tt" class="easyui-treegrid" style="width:600px;height:400px"></table>
-    <script type="text/javascript">
-        $('#tt').treegrid({
-            idField: 'ID',
-            treeField: 'ParamValue',
-            columns: [
-            @ViewBag.TreeGridData]
-        });
+    <table id="tt" class="easyui-datagrid" style="width:600px;height:400px"></table>
 
+
+    <script type="text/javascript">
+
+        $('#tt').treegrid({
+            url: '../TempleManager/Index',
+            method: 'post',
+            columns: [[
+                { field: 'ID', title: 'ID', width: 60, align: 'right' },
+                { field: 'ParamKey', title: 'ParamKey', width: 80 },
+                { field: 'ParamValue', title: 'ParamValue', width: 80 }
+            ]]
+        });
     </script>
 </body>
 </html>

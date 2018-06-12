@@ -13,42 +13,74 @@ namespace KeyshawnPo.Demo.HtmlFactoryWeb.Controllers
         // GET: TempleManager
         public ActionResult Index()
         {
+
+            return View();
+        }
+
+        [HttpPost]
+        public string Index(FormCollection collection)
+        {
             //获取所有可以进行操作的元素
             Entities _Entities = new Entities();
             List<Tmplete> _lstTmplete = _Entities.Tmplete.ToList();
 
-            TreeGrid _TreeGrid = new TreeGrid();
-            _TreeGrid.idField = "ID";
-            _TreeGrid.treeField = "ParamValue";
-            _TreeGrid.columns = new List<column>();
+            //Tree _Tree = new Tree();
+            //foreach (var item in _lstTmplete)
+            //{
+            //    _Tree.id = item.ID;
+            //    _Tree.text = item.ParamKey;
+            //    var m = (from u in _Entities.Tmplete where u.ParentID == item.ID select u);
+            //    if (0 < m.Count())
+            //    {
 
-            column _column = new column();
-            foreach (var item in _lstTmplete)
-            {
-                _column.title = item.ParamKey;
-                _column.field = item.ParamValue;
-                _column.width = 10;
-                _column.align = "center";
-                _TreeGrid.columns.Add(_column);
-            }
-            ViewBag.TreeGridData = MvcHtmlString.Create(JsonConvert.SerializeObject(_TreeGrid.columns));
+            //    }
+            //}
 
-            return View();
+            DatagridData<Tmplete> _DatagridDataResult = new DatagridData<Tmplete>();
+            _DatagridDataResult.total = _lstTmplete.Count();
+            _DatagridDataResult.rows = _lstTmplete;
+
+            return JsonConvert.SerializeObject(_DatagridDataResult);
         }
-    }
 
-    public struct TreeGrid
-    {
-        public string idField;
-        public string treeField;
-        public List<column> columns;
-    }
 
-    public struct column
-    {
-        public string title;
-        public string field;
-        public int width;
-        public string align;
+        public struct DatagridData<T>
+        {
+            public int total { get; set; }
+            public List<T> rows { get; set; }
+        }
+
+
+        public struct TreeGrid
+        {
+            public string idField;
+            public string treeField;
+            public List<column> columns;
+        }
+
+        public struct column
+        {
+            public string title;
+            public string field;
+            public int width;
+            public string align;
+        }
+
+        public struct Tree
+        {
+            public Guid id { get; set; }
+            public string text { get; set; }
+            public string iconCls { get; set; }
+            public string state { get; set; }
+
+            public TreeChildAttributes attributes { get; set; }
+
+            public List<Tree> children { get; set; }
+        }
+
+        public struct TreeChildAttributes
+        {
+            public string url { get; set; }
+        }
     }
 }
