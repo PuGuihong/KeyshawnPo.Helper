@@ -1,0 +1,28 @@
+﻿@{
+    //Layout = "~/Views/Shared/_Layout.cshtml";
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Index</title>
+
+    <script src="~/Scripts/jquery.easyui-1.4.5.js"></script>
+    <script src="~/Scripts/jquery-1.11.3.js"></script>
+</head>
+<body>
+    <table id="tt" class="easyui-treegrid" style="width:600px;height:400px"></table>
+    <script type="text/javascript">
+        $('#tt').treegrid({
+            idField: 'ID',
+            treeField: 'ParamValue',
+            columns: [
+            @ViewBag.TreeGridData]
+        });
+
+    </script>
+</body>
+</html>

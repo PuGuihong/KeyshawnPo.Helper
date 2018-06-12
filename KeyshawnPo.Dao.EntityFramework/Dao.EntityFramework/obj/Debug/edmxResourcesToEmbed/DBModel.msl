@@ -4,6 +4,7 @@
     <EntitySetMapping Name="Tmplete">
       <EntityTypeMapping TypeName="DbModel.Tmplete">
         <MappingFragment StoreEntitySet="Tmplete">
+          <ScalarProperty Name="ParentID" ColumnName="ParentID" />
           <ScalarProperty Name="ID" ColumnName="ID" />
           <ScalarProperty Name="ParamKey" ColumnName="ParamKey" />
           <ScalarProperty Name="ParamValue" ColumnName="ParamValue" />

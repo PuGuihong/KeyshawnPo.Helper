@@ -9,6 +9,7 @@
     <Property Name="ParamValue" Type="String" MaxLength="100" FixedLength="false" Unicode="false" Nullable="false" />
     <Property Name="ParamRemarks" Type="String" MaxLength="200" FixedLength="false" Unicode="true" Nullable="false" />
     <Property Name="ParamVersion" Type="Int16" Nullable="false" />
+    <Property Name="ParentID" Type="Guid" />
   </EntityType>
   <EntityContainer Name="Entities" annotation:LazyLoadingEnabled="true">
     <EntitySet Name="Tmplete" EntityType="Self.Tmplete" />

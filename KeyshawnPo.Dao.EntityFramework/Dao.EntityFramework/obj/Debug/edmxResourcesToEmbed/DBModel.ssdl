@@ -5,6 +5,7 @@
       <PropertyRef Name="ID" />
     </Key>
     <Property Name="ID" Type="uniqueidentifier" Nullable="false" />
+    <Property Name="ParentID" Type="uniqueidentifier" />
     <Property Name="ParamKey" Type="varchar" MaxLength="100" Nullable="false" />
     <Property Name="ParamValue" Type="varchar" MaxLength="100" Nullable="false" />
     <Property Name="ParamRemarks" Type="nvarchar" MaxLength="200" Nullable="false" />

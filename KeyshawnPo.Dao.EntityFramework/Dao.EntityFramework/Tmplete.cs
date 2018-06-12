@@ -19,5 +19,6 @@ namespace Dao.EntityFramework
         public string ParamValue { get; set; }
         public string ParamRemarks { get; set; }
         public short ParamVersion { get; set; }
+        public Nullable<System.Guid> ParentID { get; set; }
     }
 }
