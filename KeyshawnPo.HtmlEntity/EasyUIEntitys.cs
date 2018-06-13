@@ -36,6 +36,16 @@ namespace KeyshawnPo.HtmlEntity
         /// 显示的名称
         /// </summary>
         public string text { get; set; }
+
+        /// <summary>
+        /// 是否选中
+        /// </summary>
+        public bool selected { get; set; }
+
+        /// <summary>
+        /// 选项描述
+        /// </summary>
+        public string desc { get; set; }
     }
 
     /// <summary>

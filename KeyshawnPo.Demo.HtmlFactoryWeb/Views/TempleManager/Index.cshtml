@@ -16,14 +16,36 @@
 
 </head>
 <body>
-    <table id="tt" class="easyui-datagrid" style="width:600px;height:400px"></table>
+    <table id="tt" class="easyui-datagrid" style="width:600px;height:200px"></table>
 
+    <div class="easyui-panel" style="padding:5px;width:600px;height:200px">
+        <ul id="tree_1" class="easyui-tree"></ul>
+    </div>
 
-    <ul id="tree_1" class="easyui-tree"></ul>
+    <div class="easyui-panel" style="padding:5px;width:600px;height:200px">
+        <ul id="treegrid_1" class="easyui-treegrid"></ul>
+    </div>
 
+    <div class="easyui-panel" style="padding:5px;width:600px;height:200px">
+        <input id="combobox_1" class="easyui-combobox" name="browser" style="width:100%;">
+    </div>
 
 
     <script type="text/javascript">
+
+        $('#combobox_1').combobox({
+            url: '../TempleManager/ComboBox_1',
+            method: 'post',
+            label: 'Browser:',
+            labelPosition: 'top'
+        });
+
+        $('#treegrid_1').treegrid({
+            url: '../TempleManager/Tree_1',
+            method: 'post',
+            animate: true,
+            async: false
+        });
 
         $('#tree_1').tree({
             url: '../TempleManager/Tree_1',
@@ -39,7 +61,7 @@
             }
         });
 
-        $('#tt').treegrid({
+        $('#tt').datagrid({
             url: '../TempleManager/Index',
             method: 'post',
             columns: [[

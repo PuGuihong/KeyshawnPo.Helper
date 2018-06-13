@@ -65,6 +65,34 @@ namespace KeyshawnPo.Demo.HtmlFactoryWeb.Controllers
             return s;
         }
 
+        [HttpPost]
+        public string ComboBox_1(FormCollection collection)
+        {
+
+            string _strRlt = string.Empty;
+
+            //获取所有可以进行操作的元素
+            Entities _Entities = new Entities();
+            List<Tmplete> _lstTmplete = _Entities.Tmplete.ToList();
+            List<Combobox> _lstCombobox = new List<Combobox>();
+            foreach (var item in _lstTmplete)
+            {
+                Combobox _Combobox = new Combobox();
+                _Combobox.id = item.ID.ToString();
+                _Combobox.text = item.ParamKey;
+                _Combobox.desc = item.ParamRemarks;
+                _lstCombobox.Add(_Combobox);
+            }
+
+            _strRlt = JsonConvert.SerializeObject(_lstCombobox);
+
+            return _strRlt;
+        }
+
+
+
+
+        #region 通用递归树
 
         //递归获取节点和子节点
         //public Tree FooTree(Tree treeNode, List<Tmplete> dataSource)
@@ -102,7 +130,6 @@ namespace KeyshawnPo.Demo.HtmlFactoryWeb.Controllers
             return _prop.GetValue(entity, index);
         }
 
-        #region 通用递归树
 
         //递归获取节点和子节点
         public Tree FooTree<T>(Tree treeNode, List<T> dataSource, string parentIdName = "ParentID", string idName = "ID", string textName = "ParamValue")
