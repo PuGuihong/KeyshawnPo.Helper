@@ -19,7 +19,25 @@
     <table id="tt" class="easyui-datagrid" style="width:600px;height:400px"></table>
 
 
+    <ul id="tree_1" class="easyui-tree"></ul>
+
+
+
     <script type="text/javascript">
+
+        $('#tree_1').tree({
+            url: '../TempleManager/Tree_1',
+            method: 'post',
+            animate: true,
+            async: false,
+            formatter: function (node) {
+                var s = node.text;
+                if (node.children) {
+                    s += '&nbsp;<span style=\'color:blue\'>(' + node.children.length + ')</span>';
+                }
+                return s;
+            }
+        });
 
         $('#tt').treegrid({
             url: '../TempleManager/Index',
@@ -30,6 +48,8 @@
                 { field: 'ParamValue', title: 'ParamValue', width: 80 }
             ]]
         });
+
+
     </script>
 </body>
 </html>

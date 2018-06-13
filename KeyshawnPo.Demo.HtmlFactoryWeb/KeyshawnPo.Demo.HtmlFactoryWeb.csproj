@@ -543,6 +543,10 @@
       <Project>{9855ab52-91af-4ec4-89b8-391ab19397ab}</Project>
       <Name>Dao.EntityFramework</Name>
     </ProjectReference>
+    <ProjectReference Include="..\KeyshawnPo.HtmlEntity\KeyshawnPo.HtmlEntity.csproj">
+      <Project>{73bc6527-5a7e-4ebb-a70f-4d72cb4a14ac}</Project>
+      <Name>KeyshawnPo.HtmlEntity</Name>
+    </ProjectReference>
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>

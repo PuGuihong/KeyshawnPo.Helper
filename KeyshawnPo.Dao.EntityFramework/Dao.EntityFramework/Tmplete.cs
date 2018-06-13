@@ -11,10 +11,10 @@ namespace Dao.EntityFramework
 {
     using System;
     using System.Collections.Generic;
-    
+
     public partial class Tmplete
     {
-        public System.Guid ID { get; set; }
+        public System.Guid? ID { get; set; }
         public string ParamKey { get; set; }
         public string ParamValue { get; set; }
         public string ParamRemarks { get; set; }

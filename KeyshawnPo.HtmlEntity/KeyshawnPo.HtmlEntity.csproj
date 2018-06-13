@@ -41,6 +41,7 @@
   <ItemGroup>
     <Compile Include="ArticleTmpleteEntity.cs" />
     <Compile Include="Class1.cs" />
+    <Compile Include="EasyUIEntitys.cs" />
     <Compile Include="IHtmlElement.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="VirtualParams.cs" />

@@ -169,3 +169,5 @@ D:\MyCodePro\MyLib\keyshawnpo.helper\KeyshawnPo.Helper\KeyshawnPo.Helper\Keyshaw
 D:\MyCodePro\MyLib\keyshawnpo.helper\KeyshawnPo.Helper\KeyshawnPo.Helper\KeyshawnPo.Demo.HtmlFactoryWeb\obj\Debug\KeyshawnPo.Demo.HtmlFactoryWeb.csprojResolveAssemblyReference.cache
 D:\MyCodePro\MyLib\keyshawnpo.helper\KeyshawnPo.Helper\KeyshawnPo.Helper\KeyshawnPo.Demo.HtmlFactoryWeb\obj\Debug\KeyshawnPo.Demo.HtmlFactoryWeb.dll
 D:\MyCodePro\MyLib\keyshawnpo.helper\KeyshawnPo.Helper\KeyshawnPo.Helper\KeyshawnPo.Demo.HtmlFactoryWeb\obj\Debug\KeyshawnPo.Demo.HtmlFactoryWeb.pdb
+D:\OwnerTemp\WorkInfo\KeyshawnPo.CodeLib\KeyshawnPo.Helper\KeyshawnPo.Demo.HtmlFactoryWeb\bin\KeyshawnPo.HtmlEntity.dll
+D:\OwnerTemp\WorkInfo\KeyshawnPo.CodeLib\KeyshawnPo.Helper\KeyshawnPo.Demo.HtmlFactoryWeb\bin\KeyshawnPo.HtmlEntity.pdb
