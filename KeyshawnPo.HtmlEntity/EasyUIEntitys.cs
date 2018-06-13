@@ -66,8 +66,8 @@ namespace KeyshawnPo.HtmlEntity
     [Serializable]
     public struct Tree
     {
-        public Guid? id { get; set; }
-        public string text { get; set; }
+        public object id { get; set; }
+        public object text { get; set; }
         public string iconCls { get; set; }
         public string state { get; set; }
 
