@@ -13,8 +13,8 @@ namespace Dao.AdoNet
         {
             get
             {
-                string _connectionString = ConfigurationManager.AppSettings["ConnectionString"];
-                string ConStringEncrypt = ConfigurationManager.AppSettings["ConStringEncrypt"];
+                string _connectionString = ConfigurationManager.ConnectionStrings["ConnectionString"].ConnectionString;
+                string ConStringEncrypt = ConfigurationManager.ConnectionStrings["ConStringEncrypt"].ConnectionString;
                 if (ConStringEncrypt == "true")
                 {
                     _connectionString = DESEncrypt.Decrypt(_connectionString);

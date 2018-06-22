@@ -1,0 +1,16 @@
+D:\OwnerTemp\WorkInfo\KeyshawnPo.CodeLib\KeyshawnPo.Helper\Dao.AdoNet.Winform\bin\Debug\Dao.AdoNet.Winform.exe.config
+D:\OwnerTemp\WorkInfo\KeyshawnPo.CodeLib\KeyshawnPo.Helper\Dao.AdoNet.Winform\bin\Debug\Dao.AdoNet.Winform.exe
+D:\OwnerTemp\WorkInfo\KeyshawnPo.CodeLib\KeyshawnPo.Helper\Dao.AdoNet.Winform\bin\Debug\Dao.AdoNet.Winform.pdb
+D:\OwnerTemp\WorkInfo\KeyshawnPo.CodeLib\KeyshawnPo.Helper\Dao.AdoNet.Winform\bin\Debug\Dao.AdoNet.dll
+D:\OwnerTemp\WorkInfo\KeyshawnPo.CodeLib\KeyshawnPo.Helper\Dao.AdoNet.Winform\bin\Debug\IBatisNet.DataMapper.dll
+D:\OwnerTemp\WorkInfo\KeyshawnPo.CodeLib\KeyshawnPo.Helper\Dao.AdoNet.Winform\bin\Debug\IBatisNet.Common.dll
+D:\OwnerTemp\WorkInfo\KeyshawnPo.CodeLib\KeyshawnPo.Helper\Dao.AdoNet.Winform\bin\Debug\MySql.Data.dll
+D:\OwnerTemp\WorkInfo\KeyshawnPo.CodeLib\KeyshawnPo.Helper\Dao.AdoNet.Winform\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Data.dll
+D:\OwnerTemp\WorkInfo\KeyshawnPo.CodeLib\KeyshawnPo.Helper\Dao.AdoNet.Winform\bin\Debug\System.Data.SQLite.dll
+D:\OwnerTemp\WorkInfo\KeyshawnPo.CodeLib\KeyshawnPo.Helper\Dao.AdoNet.Winform\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Common.dll
+D:\OwnerTemp\WorkInfo\KeyshawnPo.CodeLib\KeyshawnPo.Helper\Dao.AdoNet.Winform\bin\Debug\Dao.AdoNet.pdb
+D:\OwnerTemp\WorkInfo\KeyshawnPo.CodeLib\KeyshawnPo.Helper\Dao.AdoNet.Winform\obj\Debug\Dao.AdoNet.Winform.csprojResolveAssemblyReference.cache
+D:\OwnerTemp\WorkInfo\KeyshawnPo.CodeLib\KeyshawnPo.Helper\Dao.AdoNet.Winform\obj\Debug\Dao.AdoNet.Winform.Properties.Resources.resources
+D:\OwnerTemp\WorkInfo\KeyshawnPo.CodeLib\KeyshawnPo.Helper\Dao.AdoNet.Winform\obj\Debug\Dao.AdoNet.Winform.csproj.GenerateResource.Cache
+D:\OwnerTemp\WorkInfo\KeyshawnPo.CodeLib\KeyshawnPo.Helper\Dao.AdoNet.Winform\obj\Debug\Dao.AdoNet.Winform.exe
+D:\OwnerTemp\WorkInfo\KeyshawnPo.CodeLib\KeyshawnPo.Helper\Dao.AdoNet.Winform\obj\Debug\Dao.AdoNet.Winform.pdb
