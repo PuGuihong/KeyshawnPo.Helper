@@ -1,0 +1,10 @@
+D:\OwnerTemp\WorkInfo\KeyshawnPo.CodeLib\KeyshawnPo.Helper\Dao.AdoNet\bin\Debug\Dao.AdoNet.dll
+D:\OwnerTemp\WorkInfo\KeyshawnPo.CodeLib\KeyshawnPo.Helper\Dao.AdoNet\bin\Debug\Dao.AdoNet.pdb
+D:\OwnerTemp\WorkInfo\KeyshawnPo.CodeLib\KeyshawnPo.Helper\Dao.AdoNet\bin\Debug\IBatisNet.Common.dll
+D:\OwnerTemp\WorkInfo\KeyshawnPo.CodeLib\KeyshawnPo.Helper\Dao.AdoNet\bin\Debug\IBatisNet.DataMapper.dll
+D:\OwnerTemp\WorkInfo\KeyshawnPo.CodeLib\KeyshawnPo.Helper\Dao.AdoNet\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Common.dll
+D:\OwnerTemp\WorkInfo\KeyshawnPo.CodeLib\KeyshawnPo.Helper\Dao.AdoNet\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Data.dll
+D:\OwnerTemp\WorkInfo\KeyshawnPo.CodeLib\KeyshawnPo.Helper\Dao.AdoNet\bin\Debug\MySql.Data.dll
+D:\OwnerTemp\WorkInfo\KeyshawnPo.CodeLib\KeyshawnPo.Helper\Dao.AdoNet\bin\Debug\System.Data.SQLite.DLL
+D:\OwnerTemp\WorkInfo\KeyshawnPo.CodeLib\KeyshawnPo.Helper\Dao.AdoNet\obj\Debug\Dao.AdoNet.dll
+D:\OwnerTemp\WorkInfo\KeyshawnPo.CodeLib\KeyshawnPo.Helper\Dao.AdoNet\obj\Debug\Dao.AdoNet.pdb
