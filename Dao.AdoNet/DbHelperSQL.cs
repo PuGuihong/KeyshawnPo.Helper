@@ -21,6 +21,37 @@ namespace Dao.AdoNet
         {
         }
 
+        public static bool SetConn(ref SqlConnection dbConn, ref string rltMsg)
+        {
+            bool _bRlt = false;
+            dbConn = new SqlConnection();
+            try
+            {
+                dbConn = new SqlConnection(connectionString);
+                dbConn.Open();
+                _bRlt = true;
+            }
+            catch (Exception ex)
+            {
+                rltMsg = ex.Message;
+                dbConn.Close();
+                _bRlt = false;
+            }
+            finally
+            {
+                dbConn.Close();
+            }
+            return _bRlt;
+        }
+
+        public static void CloseConn(SqlConnection dbConn)
+        {
+            if (dbConn.State == ConnectionState.Open)
+            {
+                dbConn.Close();
+            }
+        }
+
         #region 公用方法
         /// <summary>
         /// 判断是否存在某表的某个字段
