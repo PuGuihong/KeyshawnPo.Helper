@@ -14,3 +14,11 @@ D:\OwnerTemp\WorkInfo\KeyshawnPo.CodeLib\KeyshawnPo.Helper\KeyshawnPo.Demo.Winfo
 D:\OwnerTemp\WorkInfo\KeyshawnPo.CodeLib\KeyshawnPo.Helper\KeyshawnPo.Demo.Winform\KeyshawnPo.Demo.Winform\obj\Debug\KeyshawnPo.Demo.Winform.csproj.GenerateResource.Cache
 D:\OwnerTemp\WorkInfo\KeyshawnPo.CodeLib\KeyshawnPo.Helper\KeyshawnPo.Demo.Winform\KeyshawnPo.Demo.Winform\obj\Debug\KeyshawnPo.Demo.Winform.exe
 D:\OwnerTemp\WorkInfo\KeyshawnPo.CodeLib\KeyshawnPo.Helper\KeyshawnPo.Demo.Winform\KeyshawnPo.Demo.Winform\obj\Debug\KeyshawnPo.Demo.Winform.pdb
+D:\MyCodePro\MyLib\keyshawnpo.helper\KeyshawnPo.Helper\KeyshawnPo.Helper\KeyshawnPo.Demo.Winform\KeyshawnPo.Demo.Winform\bin\Debug\KeyshawnPo.Demo.Winform.exe.config
+D:\MyCodePro\MyLib\keyshawnpo.helper\KeyshawnPo.Helper\KeyshawnPo.Helper\KeyshawnPo.Demo.Winform\KeyshawnPo.Demo.Winform\bin\Debug\KeyshawnPo.Demo.Winform.exe
+D:\MyCodePro\MyLib\keyshawnpo.helper\KeyshawnPo.Helper\KeyshawnPo.Helper\KeyshawnPo.Demo.Winform\KeyshawnPo.Demo.Winform\bin\Debug\KeyshawnPo.Demo.Winform.pdb
+D:\MyCodePro\MyLib\keyshawnpo.helper\KeyshawnPo.Helper\KeyshawnPo.Helper\KeyshawnPo.Demo.Winform\KeyshawnPo.Demo.Winform\obj\Debug\KeyshawnPo.Demo.Winform.csprojResolveAssemblyReference.cache
+D:\MyCodePro\MyLib\keyshawnpo.helper\KeyshawnPo.Helper\KeyshawnPo.Helper\KeyshawnPo.Demo.Winform\KeyshawnPo.Demo.Winform\obj\Debug\KeyshawnPo.Demo.Winform.Properties.Resources.resources
+D:\MyCodePro\MyLib\keyshawnpo.helper\KeyshawnPo.Helper\KeyshawnPo.Helper\KeyshawnPo.Demo.Winform\KeyshawnPo.Demo.Winform\obj\Debug\KeyshawnPo.Demo.Winform.csproj.GenerateResource.Cache
+D:\MyCodePro\MyLib\keyshawnpo.helper\KeyshawnPo.Helper\KeyshawnPo.Helper\KeyshawnPo.Demo.Winform\KeyshawnPo.Demo.Winform\obj\Debug\KeyshawnPo.Demo.Winform.exe
+D:\MyCodePro\MyLib\keyshawnpo.helper\KeyshawnPo.Helper\KeyshawnPo.Helper\KeyshawnPo.Demo.Winform\KeyshawnPo.Demo.Winform\obj\Debug\KeyshawnPo.Demo.Winform.pdb

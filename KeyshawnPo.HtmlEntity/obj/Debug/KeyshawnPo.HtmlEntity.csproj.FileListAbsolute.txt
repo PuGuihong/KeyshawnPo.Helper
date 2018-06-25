@@ -3,3 +3,8 @@ D:\OwnerTemp\WorkInfo\KeyshawnPo.CodeLib\KeyshawnPo.Helper\KeyshawnPo.HtmlEntity
 D:\OwnerTemp\WorkInfo\KeyshawnPo.CodeLib\KeyshawnPo.Helper\KeyshawnPo.HtmlEntity\obj\Debug\KeyshawnPo.HtmlEntity.dll
 D:\OwnerTemp\WorkInfo\KeyshawnPo.CodeLib\KeyshawnPo.Helper\KeyshawnPo.HtmlEntity\obj\Debug\KeyshawnPo.HtmlEntity.pdb
 D:\OwnerTemp\WorkInfo\KeyshawnPo.CodeLib\KeyshawnPo.Helper\KeyshawnPo.HtmlEntity\obj\Debug\KeyshawnPo.HtmlEntity.csprojResolveAssemblyReference.cache
+D:\MyCodePro\MyLib\keyshawnpo.helper\KeyshawnPo.Helper\KeyshawnPo.Helper\KeyshawnPo.HtmlEntity\bin\Debug\KeyshawnPo.HtmlEntity.dll
+D:\MyCodePro\MyLib\keyshawnpo.helper\KeyshawnPo.Helper\KeyshawnPo.Helper\KeyshawnPo.HtmlEntity\bin\Debug\KeyshawnPo.HtmlEntity.pdb
+D:\MyCodePro\MyLib\keyshawnpo.helper\KeyshawnPo.Helper\KeyshawnPo.Helper\KeyshawnPo.HtmlEntity\obj\Debug\KeyshawnPo.HtmlEntity.csprojResolveAssemblyReference.cache
+D:\MyCodePro\MyLib\keyshawnpo.helper\KeyshawnPo.Helper\KeyshawnPo.Helper\KeyshawnPo.HtmlEntity\obj\Debug\KeyshawnPo.HtmlEntity.dll
+D:\MyCodePro\MyLib\keyshawnpo.helper\KeyshawnPo.Helper\KeyshawnPo.Helper\KeyshawnPo.HtmlEntity\obj\Debug\KeyshawnPo.HtmlEntity.pdb

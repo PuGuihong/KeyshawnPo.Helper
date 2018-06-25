@@ -9,3 +9,14 @@ D:\OwnerTemp\WorkInfo\KeyshawnPo.CodeLib\KeyshawnPo.Helper\Dao.AdoNet\bin\Debug\
 D:\OwnerTemp\WorkInfo\KeyshawnPo.CodeLib\KeyshawnPo.Helper\Dao.AdoNet\obj\Debug\Dao.AdoNet.dll
 D:\OwnerTemp\WorkInfo\KeyshawnPo.CodeLib\KeyshawnPo.Helper\Dao.AdoNet\obj\Debug\Dao.AdoNet.pdb
 D:\OwnerTemp\WorkInfo\KeyshawnPo.CodeLib\KeyshawnPo.Helper\Dao.AdoNet\obj\Debug\Dao.AdoNet.csprojResolveAssemblyReference.cache
+D:\MyCodePro\MyLib\keyshawnpo.helper\KeyshawnPo.Helper\KeyshawnPo.Helper\Dao.AdoNet\bin\Debug\Dao.AdoNet.dll
+D:\MyCodePro\MyLib\keyshawnpo.helper\KeyshawnPo.Helper\KeyshawnPo.Helper\Dao.AdoNet\bin\Debug\Dao.AdoNet.pdb
+D:\MyCodePro\MyLib\keyshawnpo.helper\KeyshawnPo.Helper\KeyshawnPo.Helper\Dao.AdoNet\bin\Debug\IBatisNet.Common.dll
+D:\MyCodePro\MyLib\keyshawnpo.helper\KeyshawnPo.Helper\KeyshawnPo.Helper\Dao.AdoNet\bin\Debug\IBatisNet.DataMapper.dll
+D:\MyCodePro\MyLib\keyshawnpo.helper\KeyshawnPo.Helper\KeyshawnPo.Helper\Dao.AdoNet\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Common.dll
+D:\MyCodePro\MyLib\keyshawnpo.helper\KeyshawnPo.Helper\KeyshawnPo.Helper\Dao.AdoNet\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Data.dll
+D:\MyCodePro\MyLib\keyshawnpo.helper\KeyshawnPo.Helper\KeyshawnPo.Helper\Dao.AdoNet\bin\Debug\MySql.Data.dll
+D:\MyCodePro\MyLib\keyshawnpo.helper\KeyshawnPo.Helper\KeyshawnPo.Helper\Dao.AdoNet\bin\Debug\System.Data.SQLite.DLL
+D:\MyCodePro\MyLib\keyshawnpo.helper\KeyshawnPo.Helper\KeyshawnPo.Helper\Dao.AdoNet\obj\Debug\Dao.AdoNet.csprojResolveAssemblyReference.cache
+D:\MyCodePro\MyLib\keyshawnpo.helper\KeyshawnPo.Helper\KeyshawnPo.Helper\Dao.AdoNet\obj\Debug\Dao.AdoNet.dll
+D:\MyCodePro\MyLib\keyshawnpo.helper\KeyshawnPo.Helper\KeyshawnPo.Helper\Dao.AdoNet\obj\Debug\Dao.AdoNet.pdb

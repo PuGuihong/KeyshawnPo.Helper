@@ -117,7 +117,6 @@ D:\MyCodePro\MyLib\keyshawnpo.helper\KeyshawnPo.Helper\KeyshawnPo.Helper\Keyshaw
 D:\MyCodePro\MyLib\keyshawnpo.helper\KeyshawnPo.Helper\KeyshawnPo.Helper\KeyshawnPo.Demo.HtmlFactoryWeb\bin\System.Web.WebPages.Razor.dll
 D:\MyCodePro\MyLib\keyshawnpo.helper\KeyshawnPo.Helper\KeyshawnPo.Helper\KeyshawnPo.Demo.HtmlFactoryWeb\bin\WebGrease.dll
 D:\MyCodePro\MyLib\keyshawnpo.helper\KeyshawnPo.Helper\KeyshawnPo.Helper\KeyshawnPo.Demo.HtmlFactoryWeb\bin\Dao.EntityFramework.pdb
-D:\MyCodePro\MyLib\keyshawnpo.helper\KeyshawnPo.Helper\KeyshawnPo.Helper\KeyshawnPo.Demo.HtmlFactoryWeb\bin\Dao.EntityFramework.dll.config
 D:\MyCodePro\MyLib\keyshawnpo.helper\KeyshawnPo.Helper\KeyshawnPo.Helper\KeyshawnPo.Demo.HtmlFactoryWeb\bin\System.Web.Helpers.xml
 D:\MyCodePro\MyLib\keyshawnpo.helper\KeyshawnPo.Helper\KeyshawnPo.Helper\KeyshawnPo.Demo.HtmlFactoryWeb\bin\System.Web.Mvc.xml
 D:\MyCodePro\MyLib\keyshawnpo.helper\KeyshawnPo.Helper\KeyshawnPo.Helper\KeyshawnPo.Demo.HtmlFactoryWeb\bin\System.Web.Optimization.xml
@@ -171,3 +170,5 @@ D:\MyCodePro\MyLib\keyshawnpo.helper\KeyshawnPo.Helper\KeyshawnPo.Helper\Keyshaw
 D:\MyCodePro\MyLib\keyshawnpo.helper\KeyshawnPo.Helper\KeyshawnPo.Helper\KeyshawnPo.Demo.HtmlFactoryWeb\obj\Debug\KeyshawnPo.Demo.HtmlFactoryWeb.pdb
 D:\OwnerTemp\WorkInfo\KeyshawnPo.CodeLib\KeyshawnPo.Helper\KeyshawnPo.Demo.HtmlFactoryWeb\bin\KeyshawnPo.HtmlEntity.dll
 D:\OwnerTemp\WorkInfo\KeyshawnPo.CodeLib\KeyshawnPo.Helper\KeyshawnPo.Demo.HtmlFactoryWeb\bin\KeyshawnPo.HtmlEntity.pdb
+D:\MyCodePro\MyLib\keyshawnpo.helper\KeyshawnPo.Helper\KeyshawnPo.Helper\KeyshawnPo.Demo.HtmlFactoryWeb\bin\KeyshawnPo.HtmlEntity.dll
+D:\MyCodePro\MyLib\keyshawnpo.helper\KeyshawnPo.Helper\KeyshawnPo.Helper\KeyshawnPo.Demo.HtmlFactoryWeb\bin\KeyshawnPo.HtmlEntity.pdb

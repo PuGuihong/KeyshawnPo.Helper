@@ -21,3 +21,9 @@ D:\OwnerTemp\WorkInfo\KeyshawnPo.CodeLib\KeyshawnPo.Helper\KeyshawnPo.Demo.Log4N
 D:\OwnerTemp\WorkInfo\KeyshawnPo.CodeLib\KeyshawnPo.Helper\KeyshawnPo.Demo.Log4Net\KeyshawnPo.Demo.Log4Net\obj\Debug\KeyshawnPo.Demo.Log4Net.csprojResolveAssemblyReference.cache
 D:\OwnerTemp\WorkInfo\KeyshawnPo.CodeLib\KeyshawnPo.Helper\KeyshawnPo.Demo.Log4Net\KeyshawnPo.Demo.Log4Net\obj\Debug\KeyshawnPo.Demo.Log4Net.exe
 D:\OwnerTemp\WorkInfo\KeyshawnPo.CodeLib\KeyshawnPo.Helper\KeyshawnPo.Demo.Log4Net\KeyshawnPo.Demo.Log4Net\obj\Debug\KeyshawnPo.Demo.Log4Net.pdb
+D:\MyCodePro\MyLib\keyshawnpo.helper\KeyshawnPo.Helper\KeyshawnPo.Helper\KeyshawnPo.Demo.Log4Net\KeyshawnPo.Demo.Log4Net\bin\Debug\KeyshawnPo.Demo.Log4Net.exe.config
+D:\MyCodePro\MyLib\keyshawnpo.helper\KeyshawnPo.Helper\KeyshawnPo.Helper\KeyshawnPo.Demo.Log4Net\KeyshawnPo.Demo.Log4Net\bin\Debug\KeyshawnPo.Demo.Log4Net.exe
+D:\MyCodePro\MyLib\keyshawnpo.helper\KeyshawnPo.Helper\KeyshawnPo.Helper\KeyshawnPo.Demo.Log4Net\KeyshawnPo.Demo.Log4Net\bin\Debug\KeyshawnPo.Demo.Log4Net.pdb
+D:\MyCodePro\MyLib\keyshawnpo.helper\KeyshawnPo.Helper\KeyshawnPo.Helper\KeyshawnPo.Demo.Log4Net\KeyshawnPo.Demo.Log4Net\obj\Debug\KeyshawnPo.Demo.Log4Net.csprojResolveAssemblyReference.cache
+D:\MyCodePro\MyLib\keyshawnpo.helper\KeyshawnPo.Helper\KeyshawnPo.Helper\KeyshawnPo.Demo.Log4Net\KeyshawnPo.Demo.Log4Net\obj\Debug\KeyshawnPo.Demo.Log4Net.exe
+D:\MyCodePro\MyLib\keyshawnpo.helper\KeyshawnPo.Helper\KeyshawnPo.Helper\KeyshawnPo.Demo.Log4Net\KeyshawnPo.Demo.Log4Net\obj\Debug\KeyshawnPo.Demo.Log4Net.pdb

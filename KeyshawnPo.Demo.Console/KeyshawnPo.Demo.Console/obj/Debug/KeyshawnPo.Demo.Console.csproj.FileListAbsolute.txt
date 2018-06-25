@@ -8,3 +8,8 @@ D:\OwnerTemp\WorkInfo\KeyshawnPo.CodeLib\KeyshawnPo.Helper\KeyshawnPo.Demo.Conso
 D:\OwnerTemp\WorkInfo\KeyshawnPo.CodeLib\KeyshawnPo.Helper\KeyshawnPo.Demo.Console\KeyshawnPo.Demo.Console\bin\Debug\KeyshawnPo.Demo.Console.pdb
 D:\OwnerTemp\WorkInfo\KeyshawnPo.CodeLib\KeyshawnPo.Helper\KeyshawnPo.Demo.Console\KeyshawnPo.Demo.Console\obj\Debug\KeyshawnPo.Demo.Console.exe
 D:\OwnerTemp\WorkInfo\KeyshawnPo.CodeLib\KeyshawnPo.Helper\KeyshawnPo.Demo.Console\KeyshawnPo.Demo.Console\obj\Debug\KeyshawnPo.Demo.Console.pdb
+D:\MyCodePro\MyLib\keyshawnpo.helper\KeyshawnPo.Helper\KeyshawnPo.Helper\KeyshawnPo.Demo.Console\KeyshawnPo.Demo.Console\bin\Debug\KeyshawnPo.Demo.Console.exe.config
+D:\MyCodePro\MyLib\keyshawnpo.helper\KeyshawnPo.Helper\KeyshawnPo.Helper\KeyshawnPo.Demo.Console\KeyshawnPo.Demo.Console\bin\Debug\KeyshawnPo.Demo.Console.exe
+D:\MyCodePro\MyLib\keyshawnpo.helper\KeyshawnPo.Helper\KeyshawnPo.Helper\KeyshawnPo.Demo.Console\KeyshawnPo.Demo.Console\bin\Debug\KeyshawnPo.Demo.Console.pdb
+D:\MyCodePro\MyLib\keyshawnpo.helper\KeyshawnPo.Helper\KeyshawnPo.Helper\KeyshawnPo.Demo.Console\KeyshawnPo.Demo.Console\obj\Debug\KeyshawnPo.Demo.Console.exe
+D:\MyCodePro\MyLib\keyshawnpo.helper\KeyshawnPo.Helper\KeyshawnPo.Helper\KeyshawnPo.Demo.Console\KeyshawnPo.Demo.Console\obj\Debug\KeyshawnPo.Demo.Console.pdb
