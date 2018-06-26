@@ -28,13 +28,13 @@ namespace Dao.AdoNet.Winform
                 for (int i = 0; i < _ds.Tables[0].Rows.Count; i++)
                 {
                     string _rltMsg = string.Empty;
-                    string _connStr = _ds.Tables[0].Rows[i][3].ToString();
+                    string _connStr = _ds.Tables[0].Rows[i][2].ToString();
                     DbHelperSQL.connectionString = _connStr;
                     SqlConnection _dbConn = new SqlConnection();
                     bool _setRlt = DbHelperSQL.SetConn(ref _dbConn, ref _rltMsg);
                     //查出原始数据
                     if (false == _setRlt) continue;
-                    DataSet _DataSetRlt = DbHelperSQL.Query(" select * from Info2;");
+                    DataSet _DataSetRlt = DbHelperSQL.Query(" select * from CompactIndex;");
 
                     DbHelperSQL.connectionString = "Data Source=.;Initial Catalog=MyDatabase;User ID=sa;Password=Z6626294@";
                     _setRlt = DbHelperSQL.SetConn(ref _dbConn, ref _rltMsg);
