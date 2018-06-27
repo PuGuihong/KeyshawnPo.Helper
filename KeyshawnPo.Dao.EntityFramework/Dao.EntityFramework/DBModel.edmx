@@ -4,22 +4,36 @@
   <edmx:Runtime>
     <!-- SSDL content -->
     <edmx:StorageModels>
-    <Schema Namespace="DbModel.Store" Alias="Self" Provider="System.Data.SqlClient" ProviderManifestToken="2008" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
-  <EntityContainer Name="DbModelStoreContainer">
-    <EntitySet Name="Tmplete" EntityType="DbModel.Store.Tmplete" store:Type="Tables" Schema="dbo" />
-  </EntityContainer>
-  <EntityType Name="Tmplete">
-    <Key>
-      <PropertyRef Name="ID" />
-    </Key>
-    <Property Name="ID" Type="uniqueidentifier" Nullable="false" />
-    <Property Name="ParamKey" Type="varchar" Nullable="false" MaxLength="100" />
-    <Property Name="ParamValue" Type="varchar" Nullable="false" MaxLength="100" />
-    <Property Name="ParamRemarks" Type="nvarchar" Nullable="false" MaxLength="200" />
-    <Property Name="ParamVersion" Type="smallint" Nullable="false" />
-    <Property Name="ParentID" Type="uniqueidentifier" Nullable="true" />
-  </EntityType>
-</Schema></edmx:StorageModels>
+    <Schema Namespace="DbModel.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2008" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+        <EntityType Name="MInfoSet">
+          <Key>
+            <PropertyRef Name="Id" />
+          </Key>
+          <Property Name="Id" Type="bigint" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="SourceName" Type="nvarchar" MaxLength="50" />
+          <Property Name="Source" Type="nvarchar" MaxLength="50" Nullable="false" />
+          <Property Name="IndependentSource" Type="nvarchar" MaxLength="100" />
+          <Property Name="SourceCreateDate" Type="datetime" />
+          <Property Name="SourceCollectionDate" Type="datetime" Nullable="false" />
+          <Property Name="SourceRemark" Type="nvarchar(max)" />
+          <Property Name="Area" Type="nvarchar" MaxLength="100" />
+        </EntityType>
+        <EntityType Name="Tmplete">
+          <Key>
+            <PropertyRef Name="ID" />
+          </Key>
+          <Property Name="ID" Type="uniqueidentifier" Nullable="false" />
+          <Property Name="ParamKey" Type="varchar" MaxLength="100" Nullable="false" />
+          <Property Name="ParamValue" Type="varchar" MaxLength="100" Nullable="false" />
+          <Property Name="ParamRemarks" Type="nvarchar" MaxLength="200" Nullable="false" />
+          <Property Name="ParamVersion" Type="smallint" Nullable="false" />
+          <Property Name="ParentID" Type="uniqueidentifier" />
+        </EntityType>
+        <EntityContainer Name="DbModelStoreContainer">
+          <EntitySet Name="MInfoSet" EntityType="Self.MInfoSet" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="Tmplete" EntityType="Self.Tmplete" Schema="dbo" store:Type="Tables" />
+        </EntityContainer>
+      </Schema></edmx:StorageModels>
     <!-- CSDL content -->
     <edmx:ConceptualModels>
       <Schema Namespace="DbModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
@@ -36,7 +50,21 @@
         </EntityType>
         <EntityContainer Name="Entities" annotation:LazyLoadingEnabled="true">
           <EntitySet Name="Tmplete" EntityType="Self.Tmplete" />
+          <EntitySet Name="MInfoSet" EntityType="DbModel.MInfoSet" />
         </EntityContainer>
+        <EntityType Name="MInfoSet">
+          <Key>
+            <PropertyRef Name="Id" />
+          </Key>
+          <Property Name="Id" Type="Int64" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="SourceName" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+          <Property Name="Source" Type="String" Nullable="false" MaxLength="50" FixedLength="false" Unicode="true" />
+          <Property Name="IndependentSource" Type="String" MaxLength="100" FixedLength="false" Unicode="true" />
+          <Property Name="SourceCreateDate" Type="DateTime" Precision="3" />
+          <Property Name="SourceCollectionDate" Type="DateTime" Nullable="false" Precision="3" />
+          <Property Name="SourceRemark" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+          <Property Name="Area" Type="String" MaxLength="100" FixedLength="false" Unicode="true" />
+        </EntityType>
       </Schema>
     </edmx:ConceptualModels>
     <!-- C-S mapping content -->
@@ -55,6 +83,20 @@
         </MappingFragment>
       </EntityTypeMapping>
     </EntitySetMapping>
+          <EntitySetMapping Name="MInfoSet">
+            <EntityTypeMapping TypeName="DbModel.MInfoSet">
+              <MappingFragment StoreEntitySet="MInfoSet">
+                <ScalarProperty Name="Area" ColumnName="Area" />
+                <ScalarProperty Name="SourceRemark" ColumnName="SourceRemark" />
+                <ScalarProperty Name="SourceCollectionDate" ColumnName="SourceCollectionDate" />
+                <ScalarProperty Name="SourceCreateDate" ColumnName="SourceCreateDate" />
+                <ScalarProperty Name="IndependentSource" ColumnName="IndependentSource" />
+                <ScalarProperty Name="Source" ColumnName="Source" />
+                <ScalarProperty Name="SourceName" ColumnName="SourceName" />
+                <ScalarProperty Name="Id" ColumnName="Id" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
   </EntityContainerMapping>
 </Mapping></edmx:Mappings>
   </edmx:Runtime>

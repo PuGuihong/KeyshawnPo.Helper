@@ -26,5 +26,6 @@ namespace Dao.EntityFramework
         }
     
         public virtual DbSet<Tmplete> Tmplete { get; set; }
+        public virtual DbSet<MInfoSet> MInfoSet { get; set; }
     }
 }

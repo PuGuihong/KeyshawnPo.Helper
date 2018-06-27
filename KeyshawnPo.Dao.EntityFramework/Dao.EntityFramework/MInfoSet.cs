@@ -12,13 +12,15 @@ namespace Dao.EntityFramework
     using System;
     using System.Collections.Generic;
     
-    public partial class Tmplete
+    public partial class MInfoSet
     {
-        public System.Guid ID { get; set; }
-        public string ParamKey { get; set; }
-        public string ParamValue { get; set; }
-        public string ParamRemarks { get; set; }
-        public short ParamVersion { get; set; }
-        public Nullable<System.Guid> ParentID { get; set; }
+        public long Id { get; set; }
+        public string SourceName { get; set; }
+        public string Source { get; set; }
+        public string IndependentSource { get; set; }
+        public Nullable<System.DateTime> SourceCreateDate { get; set; }
+        public System.DateTime SourceCollectionDate { get; set; }
+        public string SourceRemark { get; set; }
+        public string Area { get; set; }
     }
 }
