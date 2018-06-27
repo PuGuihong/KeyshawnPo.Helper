@@ -30,3 +30,10 @@ D:\MyCodePro\MyLib\keyshawnpo.helper\KeyshawnPo.Helper\KeyshawnPo.Helper\Dao.Ado
 D:\MyCodePro\MyLib\keyshawnpo.helper\KeyshawnPo.Helper\KeyshawnPo.Helper\Dao.AdoNet.Winform\obj\Debug\Dao.AdoNet.Winform.csprojResolveAssemblyReference.cache
 D:\MyCodePro\MyLib\keyshawnpo.helper\KeyshawnPo.Helper\KeyshawnPo.Helper\Dao.AdoNet.Winform\obj\Debug\Dao.AdoNet.Winform.Properties.Resources.resources
 D:\MyCodePro\MyLib\keyshawnpo.helper\KeyshawnPo.Helper\KeyshawnPo.Helper\Dao.AdoNet.Winform\obj\Debug\Dao.AdoNet.Winform.csproj.GenerateResource.Cache
+D:\OwnerTemp\WorkInfo\KeyshawnPo.CodeLib\KeyshawnPo.Helper\Dao.AdoNet.Winform\bin\Debug\KeyshawnPo.Helper.Lib.dll
+D:\OwnerTemp\WorkInfo\KeyshawnPo.CodeLib\KeyshawnPo.Helper\Dao.AdoNet.Winform\bin\Debug\Newtonsoft.Json.dll
+D:\OwnerTemp\WorkInfo\KeyshawnPo.CodeLib\KeyshawnPo.Helper\Dao.AdoNet.Winform\bin\Debug\ICSharpCode.SharpZipLib.dll
+D:\OwnerTemp\WorkInfo\KeyshawnPo.CodeLib\KeyshawnPo.Helper\Dao.AdoNet.Winform\bin\Debug\NPOI.dll
+D:\OwnerTemp\WorkInfo\KeyshawnPo.CodeLib\KeyshawnPo.Helper\Dao.AdoNet.Winform\bin\Debug\ChnCharInfo.dll
+D:\OwnerTemp\WorkInfo\KeyshawnPo.CodeLib\KeyshawnPo.Helper\Dao.AdoNet.Winform\bin\Debug\KeyshawnPo.Helper.Lib.pdb
+D:\OwnerTemp\WorkInfo\KeyshawnPo.CodeLib\KeyshawnPo.Helper\Dao.AdoNet.Winform\bin\Debug\NPOI.xml

@@ -91,10 +91,16 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Applay\BarCodeHelper.cs" />
+    <Compile Include="Applay\Computer\ComputerHelper.cs" />
     <Compile Include="Applay\DEncrypt\Base64DEncrypt.cs" />
+    <Compile Include="Applay\LED\LEDHelper.cs" />
+    <Compile Include="Applay\Secure\SecureHelper.cs" />
+    <Compile Include="Applay\Sound\SoundHelper.cs" />
     <Compile Include="Applay\Video\VideoHelper.cs">
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
+    <Compile Include="Applay\WebHelper\WebHelper.cs" />
+    <Compile Include="Applay\WidGet\WeGitSelectListItem.cs" />
     <Compile Include="Basic\EnumHelper.cs" />
     <Compile Include="Basic\ModelAttributeHelper.cs" />
     <Compile Include="Basic\ModelCompareHelper.cs" />
@@ -140,6 +146,7 @@
     <Compile Include="Applay\Page\GridViewHelper.cs" />
     <Compile Include="Applay\Page\PageValidate.cs" />
     <Compile Include="Applay\PinYin\PinYinHelper.cs" />
+    <Compile Include="Basic\TypeHelper.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Basic\StringsHelper.cs" />
     <Compile Include="Applay\WebServiceHelper.cs" />
@@ -175,6 +182,9 @@
     <Compile Include="Applay\Zip\ZipHelper.cs" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Applay\WebJs\CheckFunction.js" />
+    <Content Include="Applay\WebJs\CommonJS.js" />
+    <Content Include="Applay\WebJs\gbcode.js" />
     <Content Include="DLL\ChnCharInfo.dll" />
     <Content Include="DLL\Newtonsoft.Json.dll" />
     <Content Include="DLL\NPOI 2.2.1\ICSharpCode.SharpZipLib.dll" />

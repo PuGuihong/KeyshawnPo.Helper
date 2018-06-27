@@ -52,6 +52,30 @@ namespace Dao.AdoNet
             }
         }
 
+        public static string ChangeDataBase(SqlConnection dbConn, string DbName)
+        {
+            string _strRlt = string.Empty;
+            try
+            {
+                dbConn.Open();
+                _strRlt = string.Format("Persist Security Info=true;Server={0};"
+                + "User Id={1};"
+                + " Password={2};"
+                + "Initial Catalog={3};", "rm-uf6a756hpnjcvi6d8go.sqlserver.rds.aliyuncs.com,3433\\sql2012", "lps", "abcdef_123123_", DbName);
+                dbConn.Close();
+            }
+            catch (Exception ex)
+            {
+                dbConn.Close();
+            }
+            finally
+            {
+                dbConn.Close();
+            }
+            return _strRlt;
+
+        }
+
         #region 公用方法
         /// <summary>
         /// 判断是否存在某表的某个字段
@@ -533,20 +557,21 @@ namespace Dao.AdoNet
         /// </summary>
         /// <param name="SQLString">查询语句</param>
         /// <returns>DataSet</returns>
-        public static DataSet Query(string SQLString)
+        public static DataSet Query(SqlConnection conn, string SQLString, string dsName, string dbName)
         {
-            using (SqlConnection connection = new SqlConnection(connectionString))
+            string _newConnStr = ChangeDataBase(conn, dbName);
+            using (SqlConnection connection = new SqlConnection(_newConnStr))
             {
                 DataSet ds = new DataSet();
                 try
                 {
                     connection.Open();
                     SqlDataAdapter command = new SqlDataAdapter(SQLString, connection);
-                    command.Fill(ds, "ds");
+                    command.Fill(ds, dsName);
                 }
                 catch (System.Data.SqlClient.SqlException ex)
                 {
-                    throw new Exception(ex.Message);
+                    ds = null;
                 }
                 return ds;
             }

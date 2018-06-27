@@ -79,6 +79,15 @@
       <Project>{d1e34d8d-0c1b-424d-80f4-78604bc90e46}</Project>
       <Name>Dao.AdoNet</Name>
     </ProjectReference>
+    <ProjectReference Include="..\KeyshawnPo.Helper.Lib\KeyshawnPo.Helper.Lib.csproj">
+      <Project>{4e7c45ac-ac71-46ab-801d-908c7dc5ef97}</Project>
+      <Name>KeyshawnPo.Helper.Lib</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="ColectScript\G3_CompactIndex.sql" />
+    <Content Include="ColectScript\G5_CompactInfoRecipient.sql" />
+    <Content Include="ColectScript\G5_CompactInfoSend.sql" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
