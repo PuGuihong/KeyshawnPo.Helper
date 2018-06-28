@@ -17,7 +17,6 @@ D:\OwnerTemp\WorkInfo\KeyshawnPo.CodeLib\KeyshawnPo.Helper\KeyshawnPo.Helper.Lib
 D:\OwnerTemp\WorkInfo\KeyshawnPo.CodeLib\KeyshawnPo.Helper\KeyshawnPo.Helper.Lib\bin\Debug\System.Web.Http.WebHost.xml
 D:\OwnerTemp\WorkInfo\KeyshawnPo.CodeLib\KeyshawnPo.Helper\KeyshawnPo.Helper.Lib\obj\Debug\KeyshawnPo.Helper.Lib.dll
 D:\OwnerTemp\WorkInfo\KeyshawnPo.CodeLib\KeyshawnPo.Helper\KeyshawnPo.Helper.Lib\obj\Debug\KeyshawnPo.Helper.Lib.pdb
-D:\OwnerTemp\WorkInfo\KeyshawnPo.CodeLib\KeyshawnPo.Helper\KeyshawnPo.Helper.Lib\obj\Debug\KeyshawnPo.Helper.Lib.csprojResolveAssemblyReference.cache
 D:\MyCodePro\MyLib\keyshawnpo.helper\KeyshawnPo.Helper\KeyshawnPo.Helper\KeyshawnPo.Helper.Lib\bin\Debug\KeyshawnPo.Helper.Lib.dll.config
 D:\MyCodePro\MyLib\keyshawnpo.helper\KeyshawnPo.Helper\KeyshawnPo.Helper\KeyshawnPo.Helper.Lib\bin\Debug\KeyshawnPo.Helper.Lib.dll
 D:\MyCodePro\MyLib\keyshawnpo.helper\KeyshawnPo.Helper\KeyshawnPo.Helper\KeyshawnPo.Helper.Lib\bin\Debug\KeyshawnPo.Helper.Lib.pdb

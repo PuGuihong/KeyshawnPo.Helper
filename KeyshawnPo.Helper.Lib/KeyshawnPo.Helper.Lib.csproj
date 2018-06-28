@@ -65,6 +65,7 @@
     <Reference Include="System.Configuration" />
     <Reference Include="System.Core" />
     <Reference Include="System.Drawing" />
+    <Reference Include="System.Management" />
     <Reference Include="System.Net.Http" />
     <Reference Include="System.Net.Http.Formatting, Version=5.2.6.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
       <HintPath>..\packages\Microsoft.AspNet.WebApi.Client.5.2.6\lib\net45\System.Net.Http.Formatting.dll</HintPath>
@@ -92,6 +93,9 @@
   <ItemGroup>
     <Compile Include="Applay\BarCodeHelper.cs" />
     <Compile Include="Applay\Computer\ComputerHelper.cs" />
+    <Compile Include="Applay\Computer\HardInfoHelper.cs" />
+    <Compile Include="Applay\Computer\WindowsAPIKeys.cs" />
+    <Compile Include="Applay\Computer\WindowsAPIType.cs" />
     <Compile Include="Applay\DEncrypt\Base64DEncrypt.cs" />
     <Compile Include="Applay\LED\LEDHelper.cs" />
     <Compile Include="Applay\Secure\SecureHelper.cs" />

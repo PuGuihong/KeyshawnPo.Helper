@@ -13,5 +13,19 @@
   </EntityType>
   <EntityContainer Name="Entities" annotation:LazyLoadingEnabled="true">
     <EntitySet Name="Tmplete" EntityType="Self.Tmplete" />
+    <EntitySet Name="MInfoSet" EntityType="DbModel.MInfoSet" />
   </EntityContainer>
+  <EntityType Name="MInfoSet">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Int64" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="SourceName" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="Source" Type="String" Nullable="false" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="IndependentSource" Type="String" MaxLength="100" FixedLength="false" Unicode="true" />
+    <Property Name="SourceCreateDate" Type="DateTime" Precision="3" />
+    <Property Name="SourceCollectionDate" Type="DateTime" Nullable="false" Precision="3" />
+    <Property Name="SourceRemark" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <Property Name="Area" Type="String" MaxLength="100" FixedLength="false" Unicode="true" />
+  </EntityType>
 </Schema>

@@ -28,12 +28,35 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.components = new System.ComponentModel.Container();
+            this.lbHardInfo = new System.Windows.Forms.Label();
+            this.SuspendLayout();
+            // 
+            // lbHardInfo
+            // 
+            this.lbHardInfo.AutoSize = true;
+            this.lbHardInfo.Dock = System.Windows.Forms.DockStyle.Top;
+            this.lbHardInfo.Location = new System.Drawing.Point(0, 0);
+            this.lbHardInfo.Name = "lbHardInfo";
+            this.lbHardInfo.Size = new System.Drawing.Size(41, 12);
+            this.lbHardInfo.TabIndex = 0;
+            this.lbHardInfo.Text = "label1";
+            // 
+            // Form1
+            // 
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 12F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.ClientSize = new System.Drawing.Size(788, 422);
+            this.Controls.Add(this.lbHardInfo);
+            this.Name = "Form1";
             this.Text = "Form1";
+            this.ResumeLayout(false);
+            this.PerformLayout();
+
         }
 
         #endregion
+
+        private System.Windows.Forms.Label lbHardInfo;
     }
 }
 
