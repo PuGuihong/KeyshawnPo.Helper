@@ -10,6 +10,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using System.ValueTuple;
 
 namespace Dao.AdoNet.Winform
 {
@@ -96,8 +97,9 @@ namespace Dao.AdoNet.Winform
                     _strHardInfo.Append(item + "\n");
                 }
             }
-            
+
             lbHardInfo.Text = _strHardInfo.ToString();
         }
+
     }
 }
