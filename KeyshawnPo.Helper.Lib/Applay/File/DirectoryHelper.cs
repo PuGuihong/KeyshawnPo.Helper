@@ -113,6 +113,22 @@ namespace KeyshawnPo.Helper.Lib
                 throw ex;
             }
         }
+
+        static List<string> _lstDir = new List<string>();
+        //获得指定路径下所有子目录名
+        public static List<string> GetDirectory(string path)
+        {
+            DirectoryInfo _dir = new DirectoryInfo(path);
+            _lstDir.Add(path);
+            foreach (DirectoryInfo d in _dir.GetDirectories())
+            {
+                if (d.Attributes == FileAttributes.Directory)
+                {
+                    GetDirectory(d.FullName);
+                }
+            }
+            return _lstDir;
+        }
         #endregion
 
         #region 获取指定目录及子目录中所有文件列表
@@ -331,6 +347,18 @@ namespace KeyshawnPo.Helper.Lib
                 File.Copy(System.Web.HttpContext.Current.Request.PhysicalApplicationPath + "\\" + dir1, System.Web.HttpContext.Current.Request.PhysicalApplicationPath + "\\" + dir2, true);
             }
         }
+
+        public static void CopyDiskFile(string dir1, string dir2)
+        {
+            dir1 = dir1.Replace("/", "\\");
+            dir2 = dir2.Replace("/", "\\");
+            if (File.Exists(dir1))
+            {
+                File.Copy(dir1, dir2, true);
+            }
+        }
+
+
         #endregion
 
         #region 根据时间得到目录名 / 格式:yyyyMMdd 或者 HHmmssff

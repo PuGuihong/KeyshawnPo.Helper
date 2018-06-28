@@ -38,3 +38,5 @@ D:\OwnerTemp\WorkInfo\KeyshawnPo.CodeLib\KeyshawnPo.Helper\Dao.AdoNet.Winform\bi
 D:\OwnerTemp\WorkInfo\KeyshawnPo.CodeLib\KeyshawnPo.Helper\Dao.AdoNet.Winform\bin\Debug\KeyshawnPo.Helper.Lib.pdb
 D:\OwnerTemp\WorkInfo\KeyshawnPo.CodeLib\KeyshawnPo.Helper\Dao.AdoNet.Winform\bin\Debug\NPOI.xml
 D:\OwnerTemp\WorkInfo\KeyshawnPo.CodeLib\KeyshawnPo.Helper\Dao.AdoNet.Winform\obj\Debug\Dao.AdoNet.Winform.Form1.resources
+D:\OwnerTemp\WorkInfo\KeyshawnPo.CodeLib\KeyshawnPo.Helper\Dao.AdoNet.Winform\bin\Debug\System.ValueTuple.dll
+D:\OwnerTemp\WorkInfo\KeyshawnPo.CodeLib\KeyshawnPo.Helper\Dao.AdoNet.Winform\bin\Debug\System.ValueTuple.xml

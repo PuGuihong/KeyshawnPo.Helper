@@ -39,4 +39,3 @@ D:\MyCodePro\MyLib\keyshawnpo.helper\KeyshawnPo.Helper\KeyshawnPo.Helper\Keyshaw
 D:\MyCodePro\MyLib\keyshawnpo.helper\KeyshawnPo.Helper\KeyshawnPo.Helper\KeyshawnPo.Helper.Lib\obj\Debug\KeyshawnPo.Helper.Lib.pdb
 D:\OwnerTemp\WorkInfo\KeyshawnPo.CodeLib\KeyshawnPo.Helper\KeyshawnPo.Helper.Lib\bin\Debug\System.ValueTuple.dll
 D:\OwnerTemp\WorkInfo\KeyshawnPo.CodeLib\KeyshawnPo.Helper\KeyshawnPo.Helper.Lib\bin\Debug\System.ValueTuple.xml
-D:\OwnerTemp\WorkInfo\KeyshawnPo.CodeLib\KeyshawnPo.Helper\KeyshawnPo.Helper.Lib\obj\Debug\KeyshawnPo.Helper.Lib.csprojResolveAssemblyReference.cache
