@@ -17,7 +17,7 @@ namespace KeyshawnPo.FileCollector
         public Form1()
         {
             InitializeComponent();
-            ColectFile("D:\\BaiduNetdiskDownload\\", "Web.Config");
+            ColectFile("D:\\BaiduNetdiskDownload", "Web.Config");
         }
 
         //指定需要采集的名称或多个文件名称
@@ -44,6 +44,10 @@ namespace KeyshawnPo.FileCollector
 
         public void ColectFile(string DirectName, string fileName)
         {
+            //新建目录
+            string _appDirc = DirectoryHelper.GetRootDirec();
+            string _fileDirc = _appDirc + "CollectFile";
+            DirectoryHelper.CreateDirectory(_appDirc + "CollectFile");
             bool _bContains = DirectoryHelper.Contains(DirectName, fileName, true);
             if (_bContains)
             {
@@ -53,7 +57,8 @@ namespace KeyshawnPo.FileCollector
                     bool _fileContains = DirectoryHelper.Contains(item, fileName, false);
                     if (_fileContains)
                     {
-                        DirectoryHelper.CopyDiskFile(item + "\\" + fileName, "D:\\CollectFile\\" + DateTime.Now.ToString("yyyy_MM_dd_HH_mm_ss") + fileName);
+                        string _fileName = _fileDirc + "\\" + DateTime.Now.ToString("yyyy_MM_dd_HH_mm_ss") + fileName;
+                        DirectoryHelper.CopyDiskFile(item + "\\" + fileName, _fileName);
                     }
                 }
             }

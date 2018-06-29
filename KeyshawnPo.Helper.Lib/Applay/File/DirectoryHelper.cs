@@ -757,5 +757,12 @@ namespace KeyshawnPo.Helper.Lib
             }
         }
         #endregion
+
+        #region 获取应用程序目录
+        public static string GetRootDirec()
+        {
+            return System.AppDomain.CurrentDomain.BaseDirectory;
+        }
+        #endregion
     }
 }
