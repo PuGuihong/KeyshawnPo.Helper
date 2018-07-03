@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="DbModel.Store" Alias="Self" Provider="System.Data.SqlClient" ProviderManifestToken="2008" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <EntityContainer Name="DbModelStoreContainer">
+    <EntitySet Name="Tmplete" EntityType="DbModel.Store.Tmplete" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="MInfoSet" EntityType="DbModel.Store.MInfoSet" store:Type="Tables" Schema="dbo" />
+  </EntityContainer>
+  <EntityType Name="Tmplete">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="uniqueidentifier" Nullable="false" />
+    <Property Name="ParamKey" Type="varchar" Nullable="false" MaxLength="100" />
+    <Property Name="ParamValue" Type="varchar" Nullable="false" MaxLength="100" />
+    <Property Name="ParamRemarks" Type="nvarchar" Nullable="false" MaxLength="200" />
+    <Property Name="ParamVersion" Type="smallint" Nullable="false" />
+    <Property Name="ParentID" Type="uniqueidentifier" Nullable="true" />
+  </EntityType>
+  <EntityType Name="MInfoSet">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="bigint" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="SourceName" Type="nvarchar" Nullable="true" MaxLength="50" />
+    <Property Name="Source" Type="nvarchar" Nullable="false" MaxLength="50" />
+    <Property Name="IndependentSource" Type="nvarchar" Nullable="true" MaxLength="100" />
+    <Property Name="SourceCreateDate" Type="datetime" Nullable="true" />
+    <Property Name="SourceCollectionDate" Type="datetime" Nullable="false" />
+    <Property Name="SourceRemark" Type="nvarchar(max)" Nullable="true" />
+    <Property Name="Area" Type="nvarchar" Nullable="true" MaxLength="100" />
+  </EntityType>
+</Schema>

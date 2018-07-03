@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="DbModelStoreContainer" CdmEntityContainer="Entities">
+    <EntitySetMapping Name="Tmplete">
+      <EntityTypeMapping TypeName="IsTypeOf(DbModel.Tmplete)">
+        <MappingFragment StoreEntitySet="Tmplete">
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="ParamKey" ColumnName="ParamKey" />
+          <ScalarProperty Name="ParamValue" ColumnName="ParamValue" />
+          <ScalarProperty Name="ParamRemarks" ColumnName="ParamRemarks" />
+          <ScalarProperty Name="ParamVersion" ColumnName="ParamVersion" />
+          <ScalarProperty Name="ParentID" ColumnName="ParentID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="MInfoSet">
+      <EntityTypeMapping TypeName="IsTypeOf(DbModel.MInfoSet)">
+        <MappingFragment StoreEntitySet="MInfoSet">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="SourceName" ColumnName="SourceName" />
+          <ScalarProperty Name="Source" ColumnName="Source" />
+          <ScalarProperty Name="IndependentSource" ColumnName="IndependentSource" />
+          <ScalarProperty Name="SourceCreateDate" ColumnName="SourceCreateDate" />
+          <ScalarProperty Name="SourceCollectionDate" ColumnName="SourceCollectionDate" />
+          <ScalarProperty Name="SourceRemark" ColumnName="SourceRemark" />
+          <ScalarProperty Name="Area" ColumnName="Area" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>
