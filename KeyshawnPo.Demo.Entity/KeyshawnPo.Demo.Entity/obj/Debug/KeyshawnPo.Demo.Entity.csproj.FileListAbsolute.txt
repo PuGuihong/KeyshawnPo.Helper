@@ -1,8 +1,0 @@
-D:\OwnerTemp\WorkInfo\KeyshawnPo.CodeLib\KeyshawnPo.Demo.Entity\KeyshawnPo.Demo.Entity\bin\Debug\KeyshawnPo.Demo.Entity.dll
-D:\OwnerTemp\WorkInfo\KeyshawnPo.CodeLib\KeyshawnPo.Demo.Entity\KeyshawnPo.Demo.Entity\bin\Debug\KeyshawnPo.Demo.Entity.pdb
-D:\OwnerTemp\WorkInfo\KeyshawnPo.CodeLib\KeyshawnPo.Demo.Entity\KeyshawnPo.Demo.Entity\obj\Debug\KeyshawnPo.Demo.Entity.dll
-D:\OwnerTemp\WorkInfo\KeyshawnPo.CodeLib\KeyshawnPo.Demo.Entity\KeyshawnPo.Demo.Entity\obj\Debug\KeyshawnPo.Demo.Entity.pdb
-D:\OwnerTemp\WorkInfo\KeyshawnPo.CodeLib\KeyshawnPo.Helper\KeyshawnPo.Demo.Entity\KeyshawnPo.Demo.Entity\bin\Debug\KeyshawnPo.Demo.Entity.dll
-D:\OwnerTemp\WorkInfo\KeyshawnPo.CodeLib\KeyshawnPo.Helper\KeyshawnPo.Demo.Entity\KeyshawnPo.Demo.Entity\bin\Debug\KeyshawnPo.Demo.Entity.pdb
-D:\OwnerTemp\WorkInfo\KeyshawnPo.CodeLib\KeyshawnPo.Helper\KeyshawnPo.Demo.Entity\KeyshawnPo.Demo.Entity\obj\Debug\KeyshawnPo.Demo.Entity.dll
-D:\OwnerTemp\WorkInfo\KeyshawnPo.CodeLib\KeyshawnPo.Helper\KeyshawnPo.Demo.Entity\KeyshawnPo.Demo.Entity\obj\Debug\KeyshawnPo.Demo.Entity.pdb
