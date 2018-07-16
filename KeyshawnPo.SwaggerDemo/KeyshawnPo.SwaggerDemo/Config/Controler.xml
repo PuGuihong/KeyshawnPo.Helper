@@ -1,0 +1,233 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<objects xmlns="http://www.springframework.net">
+  <!--++++++++++++++++++++++++++++++++++++++++++公共API Start+++++++++++++++++++++++++++++++++++++-->
+
+  <!--公用接口-->
+  <object type="GoodPartner.Portal.WebApi.Controllers.CommonController,GoodPartner.Portal.WebApi" singleton="false" >
+    <property name="MobileCheckCodeSegregate" ref="Segregate.MobileCheckCodeSegregate"/>
+    <property name="DriverSegregate" ref="Segregate.DriverSegregate"/>
+    <property name="SysDistrictSegregate" ref="Segregate.SysDistrictSegregate"/>
+    <property name="SysProvinceSegregate" ref="Segregate.SysProvinceSegregate"/>
+    <property name="SysCitySegregate" ref="Segregate.SysCitySegregate"/>
+    <property name="DeliveryPriceSegregate" ref="Segregate.DeliveryPriceSegregate"/>
+    <property name="TransportPriceSegregate" ref="Segregate.TransportPriceSegregate"/>
+    <property name="LogSeg" ref="LogSeg"/>
+    <property name="SysteminfomationSegregate" ref="Segregate.SysteminfomationSegregate"/>
+    <!--lsm-99-->
+    <property name="CustomerBankInfoSegregate" ref="Segregate.CustomerBankInfoSegregate"/>
+    <property name="SysOrganizationSegregate" ref="Segregate.SysOrganizationSegregate"/>
+    <property name="CommonRouteSegregate" ref="Segregate.CommonRouteSegregate"/>
+    <property name="PayConfigInfoSegregate" ref="Segregate.PayConfigInfoSegregate"/>
+  </object>
+
+  <!--司机账号-->
+  <object type="goodpartner.portal.webapi.controllers.accountcontroller,goodpartner.portal.webapi" singleton="false" >
+    <property name="mobilecheckcodesegregate" ref="segregate.mobilecheckcodesegregate"/>
+    <property name="driversegregate" ref="segregate.driversegregate"/>
+    <property name="accountinfosegregate" ref="segregate.accountinfosegregate"/>
+    <property name="memberaccountsegregate" ref="segregate.memberaccountsegregate"/>
+    <property name="useraccesstokensegregate" ref="segregate.useraccesstokensegregate"/>
+    <property name="sysorganizationsegregate" ref="segregate.sysorganizationsegregate"/>
+    <property name="logseg" ref="logseg"/>
+  </object>
+
+  <!--账号注册-->
+  <!--
+  <object type="GoodPartner.Portal.WebApi.Controllers.AccountController,GoodPartner.Portal.WebApi" singleton="false" >
+    <property name="AccountInfoSegregate" ref="Segregate.AccountInfoSegregate"/>
+    <property name="AuditInfoSegregate" ref="Segregate.AuditInfoSegregate"/>
+    <property name="LogSeg" ref="LogSeg"/>
+  </object>-->
+
+  <!--消息通知辅助类-->
+
+  <object  id="Controller.NotificationHelper" type="GoodPartner.Portal.WebApi.NotificationHelper,GoodPartner.Portal.WebApi" singleton="true">
+    <property name="SysOrganizationSegregate" ref="Segregate.SysOrganizationSegregate"/>
+    <property name="NotificationSegregate" ref="Segregate.NotificationSegregate"/>
+    <property name="AgentNotificationSegregate" ref="Segregate.AgentNotificationSegregate"/>
+    <property name="CarrierNotificationSegregate" ref="Segregate.CarrierNotificationSegregate"/>
+    <property name="DriverNotificationSegregate" ref="Segregate.DriverNotificationSegregate"/>
+    <property name="MemberAccountSegregate" ref="Segregate.MemberAccountSegregate"/>
+  </object>
+
+  <!--2018-07-03 -->
+  <object type="GoodPartner.Portal.WebApi.Controllers.FeedbackController,GoodPartner.Portal.WebApi" singleton="false" >
+    <property name="FeedbackSegregate" ref="Segregate.FeedbackSegregate"/>
+    <property name="OrderTemplateSegregate" ref="Segregate.OrderTemplateSegregate"/>
+    <property name="LogSeg" ref="LogSeg"/>
+  </object>
+
+  <!--司机端线路管理-->
+  <object type="GoodPartner.Portal.WebApi.Controllers.TransportLineController,GoodPartner.Portal.WebApi" singleton="false" >
+    <property name="DriverSegregate" ref="Segregate.DriverSegregate"/>
+    <property name="CommonRouteSegregate" ref="Segregate.CommonRouteSegregate"/>
+  </object>
+  <!--++++++++++++++++++++++++++++++++++++++++++公共API End+++++++++++++++++++++++++++++++++++++-->
+
+
+
+
+
+  <!--+++++++++++++++++承运端接口方法配置Start++++++++++++++++++++++++-->
+  <!--订单-->
+  <object type="GoodPartner.Portal.Client.CarrierApp.Areas.Order.Controllers.OrderController,GoodPartner.Portal.WebApi" singleton="false">
+    <property name="OrderSegregate" ref="Segregate.OrderSegregate"/>
+    <property name="BusinessLogSegregate" ref="Segregate.BusinessLogSegregate"/>
+    <property name="NotificationSegregate" ref="Segregate.NotificationSegregate"/>
+    <property name="VehicleReportingSegregate" ref="Segregate.VehicleReportingSegregate"/>
+    <property name="DriverSegregate" ref="Segregate.DriverSegregate"/>
+    <property name="DriverNotificationSegregate" ref="Segregate.DriverNotificationSegregate"/>
+    <property name="AgentNotificationSegregate" ref="Segregate.AgentNotificationSegregate"/>
+    <property name="ConsignmentSegregate" ref="Segregate.ConsignmentSegregate"/>
+    <property name="TransportVehicleSegregate" ref="Segregate.TransportVehicleSegregate"/>
+    <property name="ConsignTruckSegregate" ref="Segregate.ConsignTruckSegregate"/>
+    <property name="SerialNumberSegregate" ref="Segregate.SerialNumberSegregate"/>
+    <property name="MemberAccountSegregate" ref="Segregate.MemberAccountSegregate"/>
+    <property name="SysOrganizationSegregate" ref="Segregate.SysOrganizationSegregate"/>
+  </object>
+
+  <!--托运单-->
+  <object type="GoodPartner.Portal.Client.CarrierApp.Areas.Consignment.Controllers.ConsignmentController,GoodPartner.Portal.WebApi" singleton="false">
+    <property name="OrderSegregate" ref="Segregate.OrderSegregate"/>
+    <property name="BusinessLogSegregate" ref="Segregate.BusinessLogSegregate"/>
+    <property name="NotificationSegregate" ref="Segregate.NotificationSegregate"/>
+    <property name="SerialNumberSegregate" ref="Segregate.SerialNumberSegregate"/>
+    <property name="ConsignmentSegregate" ref="Segregate.ConsignmentSegregate"/>
+    <property name="SysConfigItemsSegregate" ref="Segregate.SysConfigItemsSegregate"/>
+    <property name="DeliveryPriceSegregate" ref="Segregate.DeliveryPriceSegregate"/>
+    <property name="TransportPriceSegregate" ref="Segregate.TransportPriceSegregate"/>
+    <property name="CommonStatisticsSegregate" ref="Segregate.CommonStatisticsSegregate"/>
+    <property name="CarrierNotificationSegregate" ref="Segregate.CarrierNotificationSegregate"/>
+    <property name="ConsignTruckSegregate" ref="Segregate.ConsignTruckSegregate"/>
+    <property name="SysOrganizationSegregate" ref="Segregate.SysOrganizationSegregate"/>
+    <!--lsm-32-->
+  </object>
+
+  <!--对账-->
+  <object type="GoodPartner.Portal.Client.CarrierApp.Areas.Member.Controllers.ReconciliationController,GoodPartner.Portal.WebApi" singleton="false">
+    <property name="OrderSegregate" ref="Segregate.OrderSegregate"/>
+    <property name="CommonStatisticsSegregate" ref="Segregate.CommonStatisticsSegregate"/>
+    <property name="DriverStatisticsSegregate" ref="Segregate.DriverStatisticsSegregate"/>
+  </object>
+
+  <!--回单-->
+  <object type="GoodPartner.Portal.Client.CarrierApp.Areas.Consignment.Controllers.ReceiptController,GoodPartner.Portal.WebApi" singleton="false">
+    <property name="ConsignmentSegregate" ref="Segregate.ConsignmentSegregate"/>
+    <property name="ConsignReceiptSegregate" ref="Segregate.ConsignReceiptSegregate"/>
+    <property name="BusinessLogSegregate" ref="Segregate.BusinessLogSegregate"/>
+  </object>
+
+  <!--异常运单-->
+  <object type="GoodPartner.Portal.Client.CarrierApp.Areas.Consignment.Controllers.ConsignAbnormalController,GoodPartner.Portal.WebApi" singleton="false">
+    <property name="ConsignmentSegregate" ref="Segregate.ConsignmentSegregate"/>
+  </object>
+
+  <!--司机管理-->
+  <object type="GoodPartner.Portal.Client.CarrierApp.Areas.InitData.Controllers.DriverController,GoodPartner.Portal.WebApi" singleton="false">
+    <property name="DriverSegregate" ref="Segregate.DriverSegregate"/>
+  </object>
+
+  <!--车辆管理-->
+  <object type="GoodPartner.Portal.Client.CarrierApp.Areas.InitData.Controllers.TruckController,GoodPartner.Portal.WebApi" singleton="false">
+    <property name="TransportVehicleSegregate" ref="Segregate.TransportVehicleSegregate"/>
+  </object>
+  <!--+++++++++++++++++承运端接口方法配置End++++++++++++++++++++++++-->
+
+  <!--++++++++++++++++经济人相关业务接口方法配置Start+++++++++++++++++-->
+
+  <!--常用货品-->
+  <object type="GoodPartner.Portal.Client.AgentApp.Areas.InitData.Controllers.TransportGoodsController,GoodPartner.Portal.WebApi" singleton="false" >
+    <property name="TransportGoodsSegregate" ref="Segregate.TransportGoodsSegregate"/>
+    <property name="TransportGoodsCategorySegregate" ref="Segregate.TransportGoodsCategorySegregate"/>
+    <property name="LogSeg" ref="LogSeg"/>
+  </object>
+
+  <!--生产厂家-->
+  <object type="GoodPartner.Portal.Client.AgentApp.Areas.InitData.Controllers.ManufacturerController,GoodPartner.Portal.WebApi" singleton="false">
+    <property name="ManufacturerSegregate" ref="Segregate.ManufacturerSegregate"/>
+    <property name="LogSeg" ref="LogSeg"/>
+  </object>
+
+  <!--发货订单-->
+  <object type="GoodPartner.Portal.Client.AgentApp.Areas.Order.Controllers.OrderController,GoodPartner.Portal.WebApi" singleton="false">
+    <property name="OrderSegregate" ref="Segregate.OrderSegregate"/>
+    <property name="BusinessLogSegregate" ref="Segregate.BusinessLogSegregate"/>
+    <property name="NotificationSegregate" ref="Segregate.NotificationSegregate"/>
+    <property name="SysOrganizationSegregate" ref="Segregate.SysOrganizationSegregate"/>
+    <property name="ReceivingCompanySegregate" ref="Segregate.ReceivingCompanySegregate"/>
+    <property name="ConsigneeSegregate" ref="Segregate.ConsigneeSegregate"/>
+    <property name="SerialNumberSegregate" ref="Segregate.SerialNumberSegregate"/>
+    <property name="OrderAddVolumeSegregate" ref="Segregate.OrderAddVolumeSegregate"/>
+    <property name="CarrierNotificationSegregate" ref="Segregate.CarrierNotificationSegregate"/>
+    <property name="AgentNotificationSegregate" ref="Segregate.AgentNotificationSegregate"/>
+    <property name="MemberAccountSegregate" ref="Segregate.MemberAccountSegregate"/>
+    <property name="LogSeg" ref="LogSeg"/>
+  </object>
+
+  <!--承运订单-->
+  <object type="GoodPartner.Portal.Client.AgentApp.Areas.Order.Controllers.TransportOrderController,GoodPartner.Portal.WebApi" singleton="false">
+    <property name="OrderSegregate" ref="Segregate.OrderSegregate"/>
+    <property name="ConsignTruckSegregate" ref="Segregate.ConsignTruckSegregate"/>
+    <!--<property name="SysOrganizationSegregate" ref="Segregate.SysOrganizationSegregate"/>
+    <property name="VehicleReportingSegregate" ref="Segregate.VehicleReportingSegregate"/>
+    <property name="ConsignmentSegregate" ref="Segregate.ConsignmentSegregate"/>
+    <property name="BusinessLogSegregate" ref="Segregate.BusinessLogSegregate"/>
+    <property name="DriverSegregate" ref="Segregate.DriverSegregate"/>
+    <property name="DriverNotificationSegregate" ref="Segregate.DriverNotificationSegregate"/>
+    <property name="DeliveryPriceSegregate" ref="Segregate.DeliveryPriceSegregate"/>
+    <property name="TransportPriceSegregate" ref="Segregate.TransportPriceSegregate"/>
+    <property name="SerialNumberSegregate" ref="Segregate.SerialNumberSegregate"/>
+    <property name="SysConfigItemsSegregate" ref="Segregate.SysConfigItemsSegregate"/>
+    <property name="NotificationSegregate" ref="Segregate.NotificationSegregate"/>
+    <property name="LogSeg" ref="LogSeg"/>-->
+  </object>
+  <!--++++++++++++++++经济人相关业务接口方法配置End+++++++++++++++++-->
+
+  <!--+++++++++++++++司机相关业务接口方法配置Start+++++++++++++++++-->
+
+  <!--司机托运单（公用）-->
+  <object type="GoodPartner.Portal.App.Controllers.ConsignmentController,GoodPartner.Portal.WebApi" singleton="false" >
+    <property name="ConsignmentSegregate" ref="Segregate.ConsignmentSegregate"/>
+    <property name="OrderSegregate" ref="Segregate.OrderSegregate"/>
+    <property name="DriverNotificationSegregate" ref="Segregate.DriverNotificationSegregate"/>
+  </object>
+
+  <!--司机托运单（受理）-->
+  <object type="GoodPartner.Portal.App.Controllers.ConsignmentAcceptController,GoodPartner.Portal.WebApi" singleton="false" >
+    <property name="ConsignmentSegregate" ref="Segregate.ConsignmentSegregate"/>
+    <property name="SysConfigItemsSegregate" ref="Segregate.SysConfigItemsSegregate"/>
+    <property name="BusinessLogSegregate" ref="Segregate.BusinessLogSegregate"/>
+    <property name="OrderSegregate" ref="Segregate.OrderSegregate"/>
+    <property name="NotificationSegregate" ref="Segregate.NotificationSegregate"/>
+    <property name="CarrierNotificationSegregate" ref="Segregate.CarrierNotificationSegregate"/>
+    <property name="MemberAccountSegregate" ref="Segregate.MemberAccountSegregate"/>
+  </object>
+
+  <!--司机托运单（运输）-->
+  <object type="GoodPartner.Portal.App.Controllers.ConsignmentTransportController,GoodPartner.Portal.WebApi" singleton="false" >
+    <property name="ConsignmentSegregate" ref="Segregate.ConsignmentSegregate"/>
+    <property name="SysConfigItemsSegregate" ref="Segregate.SysConfigItemsSegregate"/>
+    <property name="ConsignTruckSegregate" ref="Segregate.ConsignTruckSegregate"/>
+    <property name="DeliveryPriceSegregate" ref="Segregate.DeliveryPriceSegregate"/>
+    <property name="TransportPriceSegregate" ref="Segregate.TransportPriceSegregate"/>
+    <property name="BusinessLogSegregate" ref="Segregate.BusinessLogSegregate"/>
+    <property name="SysOrganizationSegregate" ref="Segregate.SysOrganizationSegregate"/>
+    <property name="VehicleMonitoringSegregate" ref="Segregate.VehicleMonitoringSegregate"/>
+    <property name="NotificationSegregate" ref="Segregate.NotificationSegregate"/>
+    <property name="OrderSegregate" ref="Segregate.OrderSegregate"/>
+    <property name="CarrierNotificationSegregate" ref="Segregate.CarrierNotificationSegregate"/>
+    <property name="AgentNotificationSegregate" ref="Segregate.AgentNotificationSegregate"/>
+    <property name="MemberAccountSegregate" ref="Segregate.MemberAccountSegregate"/>
+    <property name="LogSeg" ref="LogSeg"/>
+  </object>
+
+  <!--APP端添加车辆-->
+  <object type="GoodPartner.Portal.WebApi.Controllers.TransportVehicleController,GoodPartner.Portal.WebApi" singleton="false" >
+    <property name="TransportVehicleSegregate" ref="Segregate.TransportVehicleSegregate"/>
+    <property name="DriverSegregate" ref="Segregate.DriverSegregate"/>
+    <property name="DriverVehicleRelationSegregate" ref="Segregate.DriverVehicleRelationSegregate"/>
+    
+  </object>
+
+  <!--+++++++++++++++司机相关业务接口方法配置End+++++++++++++++++-->
+</objects>

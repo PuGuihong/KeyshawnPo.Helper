@@ -1,0 +1,78 @@
+<?xml version="1.0"?>
+<configuration>
+
+  <!-- ================== 1：开发系统相关配置 ================== -->
+
+  <!-- 登陆提供者模式：Session、Cookie、Cache-->
+  <loginProvider>Cache</loginProvider>
+
+  <!-- 启用系统日志-->
+  <isLog>1</isLog>
+
+  <!-- 数据库超时间-->
+  <commandTimeout>180</commandTimeout>
+
+  <!--启用IP过滤 -->
+  <isIPFilter>0</isIPFilter>
+
+  <!--列表页的分页大小-->
+  <pageSize>15</pageSize>
+
+  <!--超级管理员配置-->
+  <administrator>admin</administrator>
+
+  <!--管理员账号默认密码-->
+  <adminPassword>000000</adminPassword>
+
+  <!--身份验证安全级别。1为低，2为中，3为高-->
+  <safeLevel>3</safeLevel>
+
+  <!--密码。0为明文，1为密文-->
+  <passwordType>1</passwordType>
+
+  <!--普通用户账号默认密码-->
+  <userPassword>000000</userPassword>
+
+  <!--是否开启收货方认证-->
+  <receivingPartyAuthentication>0</receivingPartyAuthentication>
+
+  <!-- ================== 2：系统软件参数配置 ================== -->
+
+  <!-- 软件名称 -->
+  <softName>供应链平台会员系统</softName>
+
+  <!-- 软件版本 -->
+  <version>1.0.0</version>
+
+  <!-- 软件授权码 测试备用 -->
+  <licenceKey>83eda07f-ead3-4050-bcee-4f41e57a7e16</licenceKey>
+
+  <!-- ================== 3：发送短信相关 ================== -->
+
+  <!--短信的账号存储键值-->
+  <smsaccountKey>SMSACCOUNTKEY</smsaccountKey>
+
+  <!--短信验证码服务商-->
+  <smsServiceProviderKey>szgsSMSACCOUNTKEY</smsServiceProviderKey>
+
+  <!--短信账号-->
+  <smsAccount>60898:hhb</smsAccount>
+
+  <!--短信密码-->
+  <smsPassword>33387599</smsPassword>
+
+  <postUrl>http://222.73.117.156/msg/HttpBatchSendSM</postUrl>
+
+  <balanceQueryUrl>http://222.73.117.156/msg/QueryBalance</balanceQueryUrl>
+
+  <postUrlSzGs>http://gateway.iems.net.cn/GsmsHttp</postUrlSzGs>
+
+  <balanceQueryUrlSzGs>http://gateway.iems.net.cn/GeneralSMS/GetAccountBalance</balanceQueryUrlSzGs>
+
+  <!--页面跳转同步通知页面路径-->
+  <AlipayReturnUrl>http://admin.huochaoduo.com/CapitalAccount/MemCapitalAccount/ReturnUrl</AlipayReturnUrl>
+
+  <!--服务器异步通知页面路径-->
+  <AlipayNotifyUrl>http://admin.huochaoduo.com/CapitalAccount/MemCapitalAccount/NotifyUrl</AlipayNotifyUrl>
+
+</configuration>
