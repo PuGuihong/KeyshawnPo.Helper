@@ -5,15 +5,17 @@ VisualStudioVersion = 15.0.27703.2042
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KeyshawnPo.SolomonEngine", "KeyshawnPo.SolomonEngine\KeyshawnPo.SolomonEngine.csproj", "{036E0B32-7525-4639-B163-FDD2E6AE65F7}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "DAO", "DAO", "{CEC9BB46-D342-42A1-B189-2A77A259782C}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "4-Infrastucture", "4-Infrastucture", "{CEC9BB46-D342-42A1-B189-2A77A259782C}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KeyshawnPo.DAO", "KeyshawnPo.DAO\KeyshawnPo.DAO\KeyshawnPo.DAO.csproj", "{54C14705-BA00-4EC3-AB86-3B256744C878}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Web", "Web", "{56672D9F-017E-406A-A5A6-7ED1487B1EAA}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1-UserInterface", "1-UserInterface", "{56672D9F-017E-406A-A5A6-7ED1487B1EAA}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Service", "Service", "{606B280D-CED7-44F6-AABC-2D32A98B8888}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "2-Application", "2-Application", "{606B280D-CED7-44F6-AABC-2D32A98B8888}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KeyshawnPo.Service", "KeyshawnPo.Service\KeyshawnPo.Service.csproj", "{BC4F00C0-C8D0-4D18-BDC9-ADFE03B76222}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "3-Domain", "3-Domain", "{BEFA6BD5-C7CE-4BAE-AA91-3A09F64CA290}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
