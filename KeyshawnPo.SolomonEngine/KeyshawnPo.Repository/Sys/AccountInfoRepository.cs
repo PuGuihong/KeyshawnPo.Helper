@@ -4,9 +4,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace KeyshawnPo.Service
+namespace KeyshawnPo.Repository.Sys
 {
-    public class Class1
+    public class AccountInfoRepository
     {
     }
 }
