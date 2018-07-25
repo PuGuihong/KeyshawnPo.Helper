@@ -1,21 +1,19 @@
-﻿using KeyshawnPo.DAO;
-using KeyshawnPo.IRepository;
-using MysqlConnectionString;
+﻿using KeyshawnPo.IRepository;
 using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace KeyshawnPo.Repository
+namespace KeyshawnPo.Service
 {
-    public class AccountInfoRepository : RepositoryBase<sys_account, string>, IAccountInfoRepository
+    public class SysMenuService : BaseService<ISysMenuRepository, string>
     {
         #region Constructor
         /// <summary>
         /// 私有构造函数，禁止外界访问
         /// </summary>
-        private AccountInfoRepository()
+        private SysMenuService()
         { }
         #endregion
 
@@ -23,7 +21,7 @@ namespace KeyshawnPo.Repository
         /// <summary>
         /// 静态变量，用于保存类的实例
         /// </summary>
-        private static AccountInfoRepository _instance;
+        private static SysMenuService _instance;
 
         /// <summary>
         /// 线程标志，确保线程同步
@@ -36,7 +34,7 @@ namespace KeyshawnPo.Repository
         /// <summary>
         /// 定义公共属性，使全局均可访问
         /// </summary>
-        public static AccountInfoRepository Instance
+        public static SysMenuService Instance
         {
             get
             {
@@ -48,7 +46,7 @@ namespace KeyshawnPo.Repository
                     {
                         if (_instance == null)
                         {
-                            _instance = new AccountInfoRepository();
+                            _instance = new SysMenuService();
                         }
                     }
                 }

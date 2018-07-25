@@ -9,7 +9,7 @@ namespace KeyshawnPo.DAO
     public class RepositoryBase<T, PK> : IRepository<T, PK> where T : class
     {
 
-        PetaPoco.Database _db = new PetaPoco.Database("");
+        PetaPoco.Database _db = new PetaPoco.Database("MysqlConnectionString");
 
         public void Clear()
         {
@@ -87,9 +87,10 @@ namespace KeyshawnPo.DAO
             throw new NotImplementedException();
         }
 
-        public IEnumerable<T> LoadAll<T>(string tbName)
+        public IEnumerable<T> LoadAll<T>()
         {
-            IEnumerable<T> _lstObj = _db.Query<T>("select * from " + tbName);
+            string _tbName = typeof(T).Name;
+            IEnumerable<T> _lstObj = _db.Query<T>("select * from " + _tbName);
             return _lstObj;
         }
 

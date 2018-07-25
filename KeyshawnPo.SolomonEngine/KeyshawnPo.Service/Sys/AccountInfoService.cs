@@ -1,19 +1,24 @@
 ﻿using KeyshawnPo.IRepository;
+using KeyshawnPo.Repository;
+using MysqlConnectionString;
 using System;
 using System.Collections.Generic;
+using System.IO;
 using System.Linq;
+using System.Runtime.Serialization.Formatters.Binary;
 using System.Text;
 using System.Threading.Tasks;
+using System.Web;
 
 namespace KeyshawnPo.Service
 {
-    public class SysMenuService : BaseService<ISysMenuRepository>
+    public class AccountInfoService : BaseService<sys_account, string>
     {
         #region Constructor
         /// <summary>
         /// 私有构造函数，禁止外界访问
         /// </summary>
-        private SysMenuService()
+        private AccountInfoService()
         { }
         #endregion
 
@@ -21,7 +26,7 @@ namespace KeyshawnPo.Service
         /// <summary>
         /// 静态变量，用于保存类的实例
         /// </summary>
-        private static SysMenuService _instance;
+        private static AccountInfoService _instance;
 
         /// <summary>
         /// 线程标志，确保线程同步
@@ -34,7 +39,7 @@ namespace KeyshawnPo.Service
         /// <summary>
         /// 定义公共属性，使全局均可访问
         /// </summary>
-        public static SysMenuService Instance
+        public static AccountInfoService Instance
         {
             get
             {
@@ -46,15 +51,13 @@ namespace KeyshawnPo.Service
                     {
                         if (_instance == null)
                         {
-                            _instance = new SysMenuService();
+                            _instance = new AccountInfoService();
                         }
                     }
                 }
                 return _instance;
             }
         }
-
         #endregion
-
     }
 }

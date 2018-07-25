@@ -121,7 +121,7 @@ namespace KeyshawnPo.DAO
         /// 获取全部集合
         /// </summary>
         /// <returns>集合</returns>
-        IEnumerable<T> LoadAll<T>(string tbName);
+        IEnumerable<T> LoadAll<T>();
 
         /// <summary>
         /// 分页获取全部集合

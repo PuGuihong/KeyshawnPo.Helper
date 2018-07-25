@@ -45,6 +45,9 @@
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="Microsoft.CSharp" />
+    <Reference Include="Newtonsoft.Json, Version=11.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
+      <HintPath>..\packages\Newtonsoft.Json.11.0.2\lib\net45\Newtonsoft.Json.dll</HintPath>
+    </Reference>
     <Reference Include="System.Web.DynamicData" />
     <Reference Include="System.Web.Entity" />
     <Reference Include="System.Web.ApplicationServices" />
@@ -89,11 +92,23 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Content\bootstrap.css" />
+    <Content Include="Content\bootstrap.min.css" />
+    <Content Include="Content\Site.css" />
+    <Content Include="fonts\glyphicons-halflings-regular.svg" />
     <Content Include="Global.asax" />
+    <Content Include="Scripts\bootstrap.js" />
+    <Content Include="Scripts\bootstrap.min.js" />
+    <None Include="Scripts\jquery-1.10.2.intellisense.js" />
+    <Content Include="Scripts\jquery-1.10.2.js" />
+    <Content Include="Scripts\jquery-1.10.2.min.js" />
+    <Content Include="Scripts\modernizr-2.6.2.js" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
     <Compile Include="App_Start\RouteConfig.cs" />
+    <Compile Include="Controllers\AccountController.cs" />
+    <Compile Include="CustomExceptionAttribute.cs" />
     <Compile Include="WebCore\AuthorityFilterAttribute.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
@@ -103,7 +118,14 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="Views\web.config" />
+    <Content Include="fonts\glyphicons-halflings-regular.woff" />
+    <Content Include="fonts\glyphicons-halflings-regular.ttf" />
+    <Content Include="fonts\glyphicons-halflings-regular.eot" />
     <None Include="packages.config" />
+    <Content Include="Views\_ViewStart.cshtml" />
+    <Content Include="Views\Shared\_Layout.cshtml" />
+    <Content Include="Views\Account\Index.cshtml" />
+    <Content Include="Scripts\jquery-1.10.2.min.map" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
@@ -114,7 +136,6 @@
   <ItemGroup>
     <Folder Include="App_Data\" />
     <Folder Include="Attribute\" />
-    <Folder Include="Controllers\" />
     <Folder Include="Models\" />
     <Folder Include="Views\Base\" />
   </ItemGroup>
@@ -122,6 +143,14 @@
     <ProjectReference Include="..\KeyshawnPo.DAO\KeyshawnPo.DAO\KeyshawnPo.DAO.csproj">
       <Project>{54c14705-ba00-4ec3-ab86-3b256744c878}</Project>
       <Name>KeyshawnPo.DAO</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\KeyshawnPo.IRepository\KeyshawnPo.IRepository.csproj">
+      <Project>{5C7ED938-2438-4A16-A855-FB2CF596F3F7}</Project>
+      <Name>KeyshawnPo.IRepository</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\KeyshawnPo.Repository\KeyshawnPo.Repository.csproj">
+      <Project>{F3A9AAB7-945E-4E72-B8E0-7ACE45974821}</Project>
+      <Name>KeyshawnPo.Repository</Name>
     </ProjectReference>
     <ProjectReference Include="..\KeyshawnPo.Service\KeyshawnPo.Service.csproj">
       <Project>{bc4f00c0-c8d0-4d18-bdc9-adfe03b76222}</Project>

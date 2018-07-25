@@ -45,5 +45,11 @@
     <Compile Include="Sys\ISysMenuRepository.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\KeyshawnPo.DAO\KeyshawnPo.DAO\KeyshawnPo.DAO.csproj">
+      <Project>{54C14705-BA00-4EC3-AB86-3B256744C878}</Project>
+      <Name>KeyshawnPo.DAO</Name>
+    </ProjectReference>
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

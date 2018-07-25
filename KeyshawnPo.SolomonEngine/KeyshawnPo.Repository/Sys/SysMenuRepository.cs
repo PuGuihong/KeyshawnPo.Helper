@@ -1,4 +1,5 @@
-﻿using KeyshawnPo.IRepository;
+﻿using KeyshawnPo.DAO;
+using KeyshawnPo.IRepository;
 using MysqlConnectionString;
 using System;
 using System.Collections.Generic;
@@ -8,7 +9,7 @@ using System.Threading.Tasks;
 
 namespace KeyshawnPo.Repository
 {
-    public class SysMenuRepository : DAO.RepositoryBase<sys_menu, string>, ISysMenuRepository
+    public class SysMenuRepository : RepositoryBase<sys_menu, string>, ISysMenuRepository
     {
     }
 }
