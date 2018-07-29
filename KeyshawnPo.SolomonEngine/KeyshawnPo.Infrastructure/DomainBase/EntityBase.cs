@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace KeyshawnPo.Infrastructure.Domain.Base
+namespace KeyshawnPo.Infrastructure.DomainBase
 {
     public abstract class EntityBase
     {

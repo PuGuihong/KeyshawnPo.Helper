@@ -1,4 +1,4 @@
-﻿using KeyshawnPo.Infrastructure.Domain.Base;
+﻿using KeyshawnPo.Infrastructure.DomainBase;
 using KeyshawnPo.Infrastructure.RepositoryFramework.Configuration;
 using System;
 using System.Collections.Generic;
