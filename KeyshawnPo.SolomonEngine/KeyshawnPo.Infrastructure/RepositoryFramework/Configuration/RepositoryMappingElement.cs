@@ -4,7 +4,7 @@ namespace KeyshawnPo.Infrastructure.RepositoryFramework.Configuration
 {
     public class RepositoryMappingElement : ConfigurationElement
     {
-        [ConfigurationProperty(RepositoryMappingConstants.InterfaceShortTypeNameAttributeName), IsKey = true, IsRequired = true]
+        [ConfigurationProperty(RepositoryMappingConstants.InterfaceShortTypeNameAttributeName, IsKey = true, IsRequired = true)]
         public string InterfaceShortTypeName
         {
             get
@@ -17,7 +17,7 @@ namespace KeyshawnPo.Infrastructure.RepositoryFramework.Configuration
             }
         }
 
-        [ConfigurationProperty(RepositoryMappingConstants.RepositoryFullTypeNameAttributeName), IsRequired = true]
+        [ConfigurationProperty(RepositoryMappingConstants.RepositoryFullTypeNameAttributeName, IsRequired = true)]
         public string RepositoryFullTypeName
         {
             get

@@ -48,8 +48,8 @@
     <Compile Include="RepositoryFramework\Configuration\RepositoryMappingConstants.cs" />
     <Compile Include="RepositoryFramework\Configuration\RepositoryMappingElement.cs" />
     <Compile Include="RepositoryFramework\Configuration\RepositorySettings.cs" />
-    <Compile Include="RepositoryFramework\IProjectRepository.cs" />
     <Compile Include="RepositoryFramework\IRepository.cs" />
+    <Compile Include="RepositoryFramework\RepositoryFactory.cs" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Repositories\" />

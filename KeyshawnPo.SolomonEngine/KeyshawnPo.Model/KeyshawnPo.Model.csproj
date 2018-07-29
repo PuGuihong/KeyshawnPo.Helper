@@ -41,10 +41,16 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Class1.cs" />
+    <Compile Include="Projects\IProjectRepository.cs" />
+    <Compile Include="Projects\Project.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
+  <ItemGroup />
   <ItemGroup>
-    <Folder Include="Projects\" />
+    <ProjectReference Include="..\KeyshawnPo.Infrastructure\KeyshawnPo.Infrastructure.csproj">
+      <Project>{8ec163fb-7712-41a7-9faa-74e791b984be}</Project>
+      <Name>KeyshawnPo.Infrastructure</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
