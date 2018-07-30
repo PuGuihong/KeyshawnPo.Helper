@@ -11,5 +11,6 @@ namespace KeyshawnPo.Infrastructure.Projects
     public interface IProjectRepository : IRepository<Project>
     {
         IList<Project> FindBy(object sector, object segment, bool completed);
+        IList<Project> FindAll();
     }
 }

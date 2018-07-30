@@ -43,6 +43,7 @@
     <Compile Include="Class1.cs" />
     <Compile Include="Projects\IProjectRepository.cs" />
     <Compile Include="Projects\Project.cs" />
+    <Compile Include="Projects\ProjectService.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup />

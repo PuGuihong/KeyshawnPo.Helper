@@ -64,6 +64,11 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="DomainBase\EntityBase.cs" />
+    <Compile Include="EntityFactoryFramework\Configuration\EntityMappingCollection.cs" />
+    <Compile Include="EntityFactoryFramework\Configuration\EntityMappingConstants.cs" />
+    <Compile Include="EntityFactoryFramework\Configuration\EntityMappingElement.cs" />
+    <Compile Include="EntityFactoryFramework\Configuration\EntitySettings.cs" />
+    <Compile Include="EntityFactoryFramework\EntityFactoryBuilder.cs" />
     <Compile Include="EntityFactoryFramework\IEntityFactory.cs" />
     <Compile Include="IUnitOfWork.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -79,6 +84,7 @@
     <Compile Include="UnitOfWork.cs" />
   </ItemGroup>
   <ItemGroup>
+    <None Include="App.config" />
     <None Include="packages.config" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
