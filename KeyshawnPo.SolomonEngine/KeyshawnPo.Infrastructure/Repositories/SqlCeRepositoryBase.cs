@@ -101,15 +101,15 @@ namespace KeyshawnPo.Infrastructure.Repositories
                 DataTable columnData = reader.GetSchemaTable();
                 foreach (string childKeyName in this.childCallbacks.Keys)
                 {
-                    if (DataHelper.ReaderContainsColumnName(columnData
-                        , childKeyName))
-                    {
-                        childKeyValue = reader[childKeyName];
-                    }
-                    else
-                    {
-                        childKeyValue = null;
-                    }
+                    //if (DataHelper.ReaderContainsColumnName(columnData
+                    //    , childKeyName))
+                    //{
+                    //    childKeyValue = reader[childKeyName];
+                    //}
+                    //else
+                    //{
+                    //    childKeyValue = null;
+                    //}
                 }
             }
             return entity;
